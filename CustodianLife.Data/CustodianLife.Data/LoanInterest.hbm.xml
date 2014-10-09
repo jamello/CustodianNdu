@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="LoanInterest" table="TBIL_LOAN_INTREST">
+    <id name="biId" column="TBIL_LOAN_INTREST_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="LoanCode" column="TBIL_LOAN_INTRST_CODE" length="3" />
+    <property name="StartLoanAmount" column="TBIL_LOAN_AMT_FROM" type="decimal"/>
+    <property name="EndLoanAmount" column="TBIL_LOAN_AMT_TO" type="decimal" />
+    <property name="LoanInterestRate" column="TBIL_LOAN_INTRST_RATE" type="decimal" />
+    <property name="LoanInterestRatePer" column="TBIL_LOAN_INT_RATE_PER" type="decimal" />
+ 
+  </class>
+</hibernate-mapping>

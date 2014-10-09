@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="AgencyProductionBudget" table="TBIL_AGCY_PREM_BUDGT">
+    <id name="abId" column="TBIL_AGCY_PREM_BUDGT_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="AgencyTypeCode" column="TBIL_AGCY_TYPE_CODE" length="1" />
+    <property name="BudgetAmount" column="TBIL_AGCY_BUGT_AMT" type="decimal" />
+    <property name="BonusAmount" column="TBIL_AGCY_BONUS_AMT" type="decimal" />
+    <property name="StartNewAgentMonth" column="TBIL_AGCY_MTH_FROM" type="integer" />
+    <property name="EndNewAgentMonth" column="TBIL_AGCY_MTH_TO" type="integer" />
+    <property name="CollectionExpensesRate" column="TBIL_AGCY_ADD_RATE1" type="decimal" />
+    <property name="AddCollectionExpensesRate" column="TBIL_AGCY_ADD_RATE2" type="decimal" />
+    <property name="LunchModeRate" column="TBIL_AGCY_ADD_RATE3" type="decimal" />
+  </class>
+</hibernate-mapping>

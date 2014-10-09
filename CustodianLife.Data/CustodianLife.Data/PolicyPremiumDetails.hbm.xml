@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="PolicyPremiumDetails" table="TBIL_POLICY_PREM_DETAILS">
+    <id name="pdId" column="TBIL_POLICY_PREM_DETAILS_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="SystemModule" column="TBIL_POL_PRM_DTL_MDLE" length="3" />
+    <property name="FileNo" column="TBIL_POL_PRM_DTL_FILE_NO" length="25"/>
+    <property name="ProposalNo" column="TBIL_POL_PRM_DTL_PROP_NO" length="25" />
+    <property name="PolicyNo" column="TBIL_POL_PRM_DTL_POLY_NO" length="25" />
+    <property name="ProductCode" column="TBIL_POL_PRM_DTL_PRDCT_CD" length="10" />
+    <property name="SumAssuredLC" column="TBIL_POL_PRM_DTL_SA_LC" type="decimal" />
+    <property name="SumAssuredFC" column="TBIL_POL_PRM_DTL_SA_FC" type="decimal" />
+    <property name="AnnualBasicPremiumLC" column="TBIL_POL_PRM_DTL_BASIC_PRM_LC" type="decimal" />
+    <property name="AnnualBasicPremiumFC" column="TBIL_POL_PRM_DTL_BASIC_PRM_FC" type="decimal" />
+    <property name="AnnualAdditionalPremLC" column="TBIL_POL_PRM_DTL_ADDPREM_LC" type="decimal" />
+    <property name="AnnualAdditionalPremFC" column="TBIL_POL_PRM_DTL_ADDPREM_FC" type="decimal" />
+    <property name="LoadingLC" column="TBIL_POL_PRM_DTL_LOADING_LC" type="decimal" />
+    <property name="LoadingFC" column="TBIL_POL_PRM_DTL_LOADING_FC" type="decimal" />
+    <property name="DiscountLC" column="TBIL_POL_PRM_DTL_DISCNT_LC" type="decimal" />
+    <property name="DiscountFC" column="TBIL_POL_PRM_DTL_DISCNT_FC" type="decimal" />
+    <property name="AdditionalChargeLC" column="TBIL_POL_PRM_DTL_CHG_LC" type="decimal" />
+    <property name="AdditionalChargeFC" column="TBIL_POL_PRM_DTL_CHG_FC" type="decimal" />
+    <property name="ModeOfPaymentFactor" column="TBIL_POL_PRM_DTL_MOP_FACTOR" length="3" /> 
+    <property name="ModeOfPaymentAmountLC" column="TBIL_POL_PRM_DTL_MOP_PRM_LC" type="decimal" />
+    <property name="ModeOfPaymentAmountFC" column="TBIL_POL_PRM_DTL_MOP_PRM_FC" type="decimal" />
+    <property name="AnnualTotalPremiumLC" column="TBIL_POL_PRM_DTL_TOT_PRM_LC" type="decimal" />
+    <property name="AnnualTotalPremiumFC" column="TBIL_POL_PRM_DTL_TOT_PRM_FC" type="decimal" />
+    <property name="NetPremiumLC" column="TBIL_POL_PRM_DTL_NET_PRM_LC" type="decimal" />
+    <property name="NetPremiumFC" column="TBIL_POL_PRM_DTL_NET_PRM_FC" type="decimal" />
+    <property name="AnnualPremiumLC" column="TBIL_POL_PRM_DTL_ANN_PREM_LC" type="decimal" />
+    <property name="AnnualPremiumFC" column="TBIL_POL_PRM_DTL_ANN_PREM_FC" type="decimal" />
+    <property name="InstalmentalPremiumLC" column="TBIL_POL_PRM_DTL_INSTAL_PREM_LC" type="decimal" />
+    <property name="InstalmentalPremiumFC" column="TBIL_POL_PRM_DTL_INSTAL_PREM_FC" type="decimal" />
+    <property name="MOPContributionLC" column="TBIL_POL_PRM_DTL_MOP_CONTRB_LC" type="decimal" />
+    <property name="MOPContributionFC" column="TBIL_POL_PRM_DTL_MOP_CONTRB_FC" type="decimal" />
+    <property name="AnnualContributionLC" column="TBIL_POL_PRM_DTL_ANN_CONTRB_LC" type="decimal" />
+    <property name="AnnualContributionFC" column="TBIL_POL_PRM_DTL_ANN_CONTRB_FC" type="decimal" />
+    <property name="FirstPremiumLC" column="TBIL_POL_PRM_DTL_FIRST_PRM_LC" type="decimal" />
+    <property name="FirstPremiumFC" column="TBIL_POL_PRM_DTL_FIRST_PRM_FC" type="decimal" />
+
+
+  </class>
+</hibernate-mapping>

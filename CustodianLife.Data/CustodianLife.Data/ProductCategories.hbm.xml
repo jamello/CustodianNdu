@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="ProductCategories" table="TBIL_PRODUCT_CAT">
+    <id name="pcId" column="TBIL_CAT_REC_ID" >
+      <generator class="identity"/>
+    </id>
+    <property name="ProductCatModule" column="TBIL_PRDCT_CAT_MDLE" length="3" />
+    <property name="ProductCatCode" column="TBIL_PRDCT_CAT_CD" length="3" />
+    <property name="ProductCatDesc" column="TBIL_CAT_DESC" length="300" />
+    <property name="ProductCatShortDesc" column="TBIL_CAT_SHRT_DESC" length="30" />
+
+  </class>
+</hibernate-mapping>

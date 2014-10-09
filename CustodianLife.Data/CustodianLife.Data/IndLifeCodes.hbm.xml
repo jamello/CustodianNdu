@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="IndLifeCodes" table="TBIL_LIFE_CODES">
+    <id name="icId" column="TBIL_COD_REC_ID">
+      <generator class="identity"  />
+    </id>
+    <property name="CodeTabId" column="TBIL_COD_TAB_ID" length="4" />
+    <property name="CodeType" column="TBIL_COD_TYP" length="4" />
+    <property name="CodeItem" column="TBIL_COD_ITEM" length="30" />
+    <property name="CodeLongDesc" column="TBIL_COD_LONG_DESC" length="200" />
+    <property name="CodeShortDesc" column="TBIL_COD_SHORT_DESC" length="20" />
+    <!--
+    <one-to-one  name="LoanInterest" class="CustodianLife.Model.LoanInterest, CustodianLife.Model" />
+    -->
+  </class>
+</hibernate-mapping>

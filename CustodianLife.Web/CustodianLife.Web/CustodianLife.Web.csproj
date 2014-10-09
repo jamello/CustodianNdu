@@ -1,0 +1,207 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4980CB5D-E01C-486D-99B6-3B3D174AED0A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustodianLife.Web</RootNamespace>
+    <AssemblyName>CustodianLife.Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Antlr3.Runtime.dll" />
+    <Content Include="bin\Castle.Core.dll" />
+    <Content Include="bin\Castle.Core.xml" />
+    <Content Include="bin\Castle.DynamicProxy2.dll" />
+    <Content Include="bin\Castle.DynamicProxy2.xml" />
+    <Content Include="bin\CustodianLife.Web.dll" />
+    <Content Include="bin\CustodianLife.Web.pdb" />
+    <Content Include="bin\Iesi.Collections.dll" />
+    <Content Include="bin\Iesi.Collections.xml" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\log4net.xml" />
+    <Content Include="bin\NHibernate.ByteCode.Castle.dll" />
+    <Content Include="bin\NHibernate.ByteCode.Castle.xml" />
+    <Content Include="bin\NHibernate.xml" />
+    <Content Include="css\general.css" />
+    <Content Include="css\grid.css" />
+    <Content Include="css\rounded.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IndLifeCodeEnq.aspx.cs">
+      <DependentUpon>IndLifeCodeEnq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IndLifeCodeEnq.aspx.designer.cs">
+      <DependentUpon>IndLifeCodeEnq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IndLifeCodes.aspx.cs">
+      <DependentUpon>IndLifeCodes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IndLifeCodes.aspx.designer.cs">
+      <DependentUpon>IndLifeCodes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCategories.aspx.cs">
+      <DependentUpon>ProductCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductCategories.aspx.designer.cs">
+      <DependentUpon>ProductCategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCategoriesEnq.aspx.cs">
+      <DependentUpon>ProductCategoriesEnq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductCategoriesEnq.aspx.designer.cs">
+      <DependentUpon>ProductCategoriesEnq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\CSS files.zip" />
+    <Content Include="img\asc.gif" />
+    <Content Include="img\bl.gif" />
+    <Content Include="img\bm.gif" />
+    <Content Include="img\body-bg.gif" />
+    <Content Include="img\br.gif" />
+    <Content Include="img\bullet.gif" />
+    <Content Include="img\cal.gif" />
+    <Content Include="img\desc.gif" />
+    <Content Include="img\greenArrow.png" />
+    <Content Include="img\l.gif" />
+    <Content Include="img\login_key.jpg" />
+    <Content Include="img\next.gif" />
+    <Content Include="img\next_mon.gif" />
+    <Content Include="img\next_year.gif" />
+    <Content Include="img\no_cal.gif" />
+    <Content Include="img\pixel.gif" />
+    <Content Include="img\prev.gif" />
+    <Content Include="img\prev_mon.gif" />
+    <Content Include="img\prev_year.gif" />
+    <Content Include="img\r.gif" />
+    <Content Include="img\redArrow.png" />
+    <Content Include="img\shade_bl.png" />
+    <Content Include="img\shade_bm.png" />
+    <Content Include="img\shade_br.png" />
+    <Content Include="img\shade_mr.png" />
+    <Content Include="img\shade_tr.png" />
+    <Content Include="img\tl.gif" />
+    <Content Include="img\tm.gif" />
+    <Content Include="img\tr.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\C5.dll" />
+    <Content Include="bin\Common.Logging.dll" />
+    <Content Include="bin\CustodianLife.Data.dll" />
+    <Content Include="bin\CustodianLife.Data.pdb" />
+    <Content Include="bin\CustodianLife.Model.dll" />
+    <Content Include="bin\CustodianLife.Model.pdb" />
+    <Content Include="bin\CustodianLife.Repositories.dll" />
+    <Content Include="bin\CustodianLife.Repositories.pdb" />
+    <Content Include="bin\NHibernate.dll" />
+    <Content Include="img\image files.zip" />
+    <Content Include="IndLifeCodeEnq.aspx" />
+    <Content Include="IndLifeCodes.aspx" />
+    <Content Include="ProductCategories.aspx" />
+    <Content Include="ProductCategoriesEnq.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CustodianLife.Data\CustodianLife.Data\CustodianLife.Data.csproj">
+      <Project>{86F30336-CC08-48CC-8D7B-4C58EF63DB46}</Project>
+      <Name>CustodianLife.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CustodianLife.Model\CustodianLife.Model\CustodianLife.Model.csproj">
+      <Project>{618316BC-A692-4367-BF45-D563AA8346C4}</Project>
+      <Name>CustodianLife.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CustodianLife.Repositories\CustodianLife.Repositories\CustodianLife.Repositories.csproj">
+      <Project>{F6C8AAA7-FF5C-4F85-B416-2A30973B4B42}</Project>
+      <Name>CustodianLife.Repositories</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13819</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

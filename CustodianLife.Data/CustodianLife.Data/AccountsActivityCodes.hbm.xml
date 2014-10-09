@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="AccountsActivityCodes" table="TBFN_ACTIVITY_TAB">
+    <id name="aaId" column="TBFN_ACTIVITY_TAB_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="CompanyCode" column="TBFN_ACTIVITY_COMP_CD" length="3" />
+    <property name="GLMainAccountCode" column="TBFN_ACTIVITY_GL_MAIN" length="10" />
+    <property name="GLSubAccountCode" column="TBFN_ACTIVITY_GL_SUB" length="05" />
+    <property name="ActivityCode" column="TBFN_ACTIVITY_CODE" length="05" />
+    <property name="ActivityDescription" column="TBFN_ACTIVITY_DESC" length="60" />
+  </class>
+</hibernate-mapping>
+

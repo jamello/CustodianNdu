@@ -1,0 +1,41 @@
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Webv.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Webv.pdb
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Webv.xml
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Data.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Model.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Repositories.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\Iesi.Collections.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\Antlr3.Runtime.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\log4net.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\NHibernate.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Model.pdb
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Data.pdb
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Repositories.pdb
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\ResolveAssemblyReference.cache
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.Resources.resources
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.vbproj.GenerateResource.Cache
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.xml
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Webv.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Webv.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Webv.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Data.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Model.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Repositories.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\Iesi.Collections.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\Antlr3.Runtime.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\log4net.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\NHibernate.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\Iesi.Collections.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Model.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Data.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\log4net.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\NHibernate.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\bin\CustodianLife.Repositories.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\ResolveAssemblyReference.cache
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.Resources.resources
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.vbproj.GenerateResource.Cache
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\CustodianLife.Webv\obj\Debug\CustodianLife.Webv.pdb

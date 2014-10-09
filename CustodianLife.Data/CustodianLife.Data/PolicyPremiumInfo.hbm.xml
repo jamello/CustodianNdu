@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="PolicyPremiumInfo" table="TBIL_POLICY_PREM_INFO_COMBINE">
+    <id name="ppId" column="TBIL_POLICY_PREM_INFO_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="SystemModule" column="TBIL_POL_PRM_MDLE" length="3" />
+    <property name="FileNo" column="TBIL_POL_PRM_FILE_NO" length="25"/>
+    <property name="ProposalNo" column="TBIL_POL_PRM_PROP_NO" length="25" />
+    <property name="PolicyNo" column="TBIL_POL_PRM_POLY_NO" length="25" />
+    <property name="ProductCode" column="TBIL_POL_PRM_PRDCT_CD" length="10" />
+    <property name="PlanCode" column="TBIL_POL_PRM_PLAN_CD" length="10" />
+    <property name="PolicyTerm" column="TBIL_POL_PRM_PERIOD_YRS" type ="integer" />
+    <property name="PolicyStartDate" column="TBIL_POL_PRM_FROM" type="datetime" />
+    <property name="PolicyEndDate" column="TBIL_POL_PRM_TO" type="datetime" />
+    <property name="SumAssuredCurrency" column="TBIL_POL_PRM_SA_CURRCY" length="5" />
+    <property name="AnnualContributionLC" column="TBIL_POL_PRM_ANN_CONTRIB_LC" type="decimal" />
+    <property name="AnnualContributionFC" column="TBIL_POL_PRM_ANN_CONTRIB_FC" type="decimal" />
+    <property name="MonthContributionLC" column="TBIL_POL_PRM_MTH_CONTRIB_LC" type="decimal" />
+    <property name="MonthContributionFC" column="TBIL_POL_PRM_MTH_CONTRIB_FC" type="decimal" />
+    
+    <property name="LifeCover" column="TBIL_POL_PRM_LIFE_COVER" length="3" />
+    <property name="SACalculatedPremium" column="TBIL_POL_SA_FROM_PRM" length="3" />
+    
+    <property name="SumAssuredLC" column="TBIL_POL_PRM_SA_LC" type="decimal" />
+    <property name="SumAssuredFC" column="TBIL_POL_PRM_SA_FC" type="decimal" />
+    
+    <property name="FreeCoverLimitLC" column="TBIL_POL_PRM_FREE_COV_LMT_LC" type="decimal" />
+    <property name="FreeCoverLimitFC" column="TBIL_POL_PRM_FREE_COV_LMT_FC" type="decimal" />
+    
+    <property name="ModeOfPayment" column="TBIL_POL_PRM_MODE_PAYT" length="3" />
+    <property name="PremiumRateSelect" column="TBIL_POL_PRM_RT_TAB_FIX" type="decimal" />
+    <property name="FixedRate" column="TBIL_POL_PRM_RT_FIXED" type="decimal" />
+    <property name="FixedRatePer" column="TBIL_POL_PRM_RT_FIX_PER" type="decimal" />
+    <property name="RateCode" column="TBIL_POL_PRM_RATE_CD" length="5" />
+    <property name="PremiumRate" column="TBIL_POL_PRM_RATE" type="decimal" />
+    <property name="NoOfInstalments" column="TBIL_POL_PRM_NO_INSTAL" type="int" />
+    <property name="ModeOfPaymentRate" column="TBIL_POL_PRM_MOP_RATE" type="decimal" />
+    <property name="ExchangeRate" column="_PRM_EXCHG_RATE" type="decimal" />
+    <property name="DiscountPercentage" column="TBIL_POL_PRM_DISCNT_PCENT" type="decimal" />
+    <property name="LoadingPercentage" column="TBIL_POL_PRM_LOAD_PCENT" type="decimal" />
+    <property name="FreeLifeCoverAmountLC" column="POL_PRM_FREE_LIFECOVER_LMT_LC" type="decimal" />
+    <property name="FreeLifeCoverAmountFC" column="POL_PRM_FREE_LIFECOVER_LMT_FC" type="decimal" />
+    <property name="AppliedOn" column="TBIL_POL_PRM_RT_APPLIED_ON" length="3" />
+  </class>
+</hibernate-mapping>

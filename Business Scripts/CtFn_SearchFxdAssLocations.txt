@@ -1,0 +1,138 @@
+set ansi_nulls off;
+go
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF OBJECT_ID (N'[dbo].CtFn_SearchFxdAssLocation', N'TF') IS NOT NULL
+begin
+   DROP FUNCTION [dbo].CtFn_SearchFxdAssLocation;
+   IF  EXISTS (	SELECT * FROM sys.objects 
+				WHERE object_id = OBJECT_ID(N'[dbo].[CtFn_SearchFxdAssLocation]') 
+				AND type in (N'TF')
+			  )
+		Print '<<< Failed Dropping  FUNCTION [CtFn_SearchFxdAssLocation] created !!! >>>'
+	else
+		Print '<<< FUNCTION [dbo].[CtFn_SearchFxdAssLocation] Dropped >>>'
+end   
+else
+	Print '<<< !!! Error FUNCTION [dbo].[CtFn_SearchFxdAssLocation] does Not exist >>>' ;   
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE function dbo.CtFn_SearchFxdAssLocation
+(
+		@pCompany_Id	smallint
+	,	@pSearchType	nvarchar(100) = Null
+	,	@pParam1     nvarchar(100)
+	,	@pParam2     nvarchar(100)
+	,	@pParam3     nvarchar(100)	
+)
+RETURNS @rFxdAssLocation Table 
+(
+		sLocation_Id	smallint Not NULL,
+		sLocation_Descr	nvarchar(25) Not NULL,
+		sAddress	nvarchar(100) Not NULL,
+		sCity     nvarchar(50) Not Null,
+		sStatus		nvarchar(15) Not Null
+)
+
+--with encryption
+AS
+BEGIN
+    /***************************************
+	    Author      : James Nnannah
+	    Create date : April  2011
+	    Description : Used to search for Fixed Assets Locations 
+	    Version     : 1
+    ******************************************/
+		declare @SearchSwitch char(1);
+		
+		set @pParam1 = REPLACE(@pParam1,N'''',N'--');
+		set @pParam1 = REPLACE(@pParam1,N'--',N'--');		
+		set @pParam1 = REPLACE(@pParam1,N';',N'--');				
+		set @pParam1 = REPLACE(@pParam1,N'/* ... */',N'--');	
+		set @pParam1 = REPLACE(@pParam1,N'xp_',N'--');
+		
+		begin
+			set @SearchSwitch = (select Option_Value from Gb_Company_Options 
+								where Option_Name = 'FxdAsset_Empl')
+		end
+		
+		if (@pSearchType = 'Location' and @SearchSwitch = 'y'  )
+		begin
+    
+			Insert into @rFxdAssLocation
+			select 	  
+			  a.Branch_Id, 	  
+			  a.Branch_Name,
+			  a.Address_Line_1,
+			  a.City,
+			  a.Status
+			from Gb_Branches a
+			where a.Company_Id = @pCompany_Id
+		        and 
+		        (
+			  ltrim(rtrim(a.Branch_Name)) like '%' + rtrim(ltrim(@pParam1))+'%' 
+		         )
+		        
+		        order by a.status Asc
+		end
+		else if (@pSearchType = 'All' and @SearchSwitch = 'y' )
+		begin
+			Insert into @rFxdAssLocation
+			select 	  
+			  a.Branch_Id, 	  
+			  a.Branch_Name,
+			  a.Address_Line_1,
+			  a.City,
+			  a.Status
+			from Gb_Branches a
+			where a.Company_Id = @pCompany_Id
+		        order by a.status Asc
+		end						
+		else if (@pSearchType = 'Location' and @SearchSwitch = 'n'  )
+		begin
+		    
+			Insert into @rFxdAssLocation
+			select 	  
+			  a.Location_Id, 	  
+			  a.Location_Descr,
+			  a.Address_Line_1,
+			  a.City,
+			  a.Status
+			from FxdAsset_Locations a
+			where a.Company_Id = @pCompany_Id
+		        and 
+		        (
+			  ltrim(rtrim(a.Location_Descr)) like '%' + rtrim(ltrim(@pParam1))+'%' 
+		         )
+		        
+		        order by a.status Asc
+		end
+		else if (@pSearchType = 'All' and @SearchSwitch = 'n' )
+		begin
+			Insert into @rFxdAssLocation
+			select 	  
+			  a.Location_Id, 	  
+			  a.Location_Descr,
+			  a.Address_Line_1,
+			  a.City,
+			  a.Status
+			from FxdAsset_Locations a
+			where a.Company_Id = @pCompany_Id
+		        order by a.status Asc
+		end						
+	skipp:
+   RETURN
+END	
+GO
+IF  EXISTS (SELECT * FROM sys.objects 
+			WHERE object_id = OBJECT_ID(N'[dbo].[CtFn_SearchFxdAssLocation]') 
+			AND type in (N'TF'))
+	Print '<<< Success creating function  [dbo].[CtFn_SearchFxdAssLocation] created !!! >>>'
+else
+	Print '<<< !!! Error creating function [dbo].[CtFn_SearchFxdAssLocation] Not created >>>'
+GO

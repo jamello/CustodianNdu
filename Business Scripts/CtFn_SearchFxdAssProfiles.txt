@@ -1,0 +1,96 @@
+set ansi_nulls off;
+go
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF OBJECT_ID (N'[dbo].CtFn_SearchFxdAssProfiles', N'TF') IS NOT NULL
+begin
+   DROP FUNCTION [dbo].CtFn_SearchFxdAssProfiles;
+   IF  EXISTS (	SELECT * FROM sys.objects 
+				WHERE object_id = OBJECT_ID(N'[dbo].[CtFn_SearchFxdAssProfiles]') 
+				AND type in (N'TF')
+			  )
+		Print '<<< Failed Dropping  FUNCTION [CtFn_SearchFxdAssProfiles] created !!! >>>'
+	else
+		Print '<<< FUNCTION [dbo].[CtFn_SearchFxdAssProfiles] Dropped >>>'
+end   
+else
+	Print '<<< !!! Error FUNCTION [dbo].[CtFn_SearchFxdAssProfiles] does Not exist >>>' ;   
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE function dbo.CtFn_SearchFxdAssProfiles
+(
+		@pCompany_Id	smallint
+	,	@pSearchType	nvarchar(100) = Null
+	,	@pParam1     nvarchar(100)
+	,	@pParam2     nvarchar(100)
+	,	@pParam3     nvarchar(100)	
+)
+RETURNS @rFxdAssProfile Table 
+(
+		sProfile_Id	nvarchar(50) Not NULL,
+		sFxdAss_Name	nvarchar(200) Not NULL,
+		sLocation	nvarchar(50) Not NULL,
+		sStatus		nvarchar(15) Not Null
+)
+
+--with encryption
+AS
+BEGIN
+    /***************************************
+	    Author      : James Nnannah
+	    Create date : April  2011
+	    Description : Used to search for Fixed Assets Profiles 
+	    Version     : 1
+    ******************************************/
+		
+		set @pParam1 = REPLACE(@pParam1,N'''',N'--');
+		set @pParam1 = REPLACE(@pParam1,N'--',N'--');		
+		set @pParam1 = REPLACE(@pParam1,N';',N'--');				
+		set @pParam1 = REPLACE(@pParam1,N'/* ... */',N'--');	
+		set @pParam1 = REPLACE(@pParam1,N'xp_',N'--');
+		
+				if (@pSearchType = 'Asset Name'   )
+		begin
+    
+			Insert into @rFxdAssProfile
+			select 	  
+			  a.Asset_Id, 	  
+			  a.Asset_Name,
+			  b.Location_Descr,
+			  a.Status
+			from FxdAsset_Ledger a, FxdAsset_Locations b
+    		where a.Company_Id = @pCompany_Id
+		        and 
+		        (
+			  ltrim(rtrim(a.Asset_Name)) like '%' + rtrim(ltrim(@pParam1))+'%' 
+		         )
+		        order by a.status Asc
+		end
+		else if (@pSearchType = 'All')
+		begin
+			Insert into @rFxdAssProfile
+			select 	  
+			  a.Asset_Id, 	  
+			  a.Asset_Name,
+			  b.Location_Descr,
+			  a.Status
+			from FxdAsset_Ledger a, FxdAsset_Locations b
+    		where a.Company_Id = @pCompany_Id
+		        order by a.status Asc
+		end						
+	skipp:
+   RETURN
+END	
+GO
+IF  EXISTS (SELECT * FROM sys.objects 
+			WHERE object_id = OBJECT_ID(N'[dbo].[CtFn_SearchFxdAssProfiless]') 
+			AND type in (N'TF'))
+	Print '<<< Success creating function  [dbo].[CtFn_SearchFxdAssProfiless] created !!! >>>'
+else
+	Print '<<< !!! Error creating function [dbo].[CtFn_SearchFxdAssProfiless] Not created >>>'
+GO

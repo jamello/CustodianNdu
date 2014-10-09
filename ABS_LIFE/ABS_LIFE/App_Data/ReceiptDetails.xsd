@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="stringtype">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="inttype">
+    <xs:restriction base="xs:positiveInteger"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="dectype">
+    <xs:restriction base="xs:decimal"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="idtype">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{6}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:complexType name="receipttype">
+    <xs:attribute name="sReceiptNo" type="stringtype"/>
+    <xs:attribute name="sInsuredName" type="stringtype"/>
+    <xs:attribute name="sInsuredAddress" type="stringtype"/>
+    <xs:attribute name="sReceiptAmount" type="dectype"/>
+    <xs:attribute name="sInsurancePeriod" type="stringtype"/>
+    <xs:attribute name="sBrokerAgentName" type="stringtype"/>
+    <xs:attribute name="sReceiptDate" type="stringtype"/>
+    <xs:attribute name="sSNo" type="stringtype"/>
+  </xs:complexType>
+
+  <xs:element name="receiptdetails" type="receipttype"/>
+</xs:schema>

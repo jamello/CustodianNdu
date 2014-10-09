@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="TransactionTypes" table="TBFN_TRANS_TYPE">
+    <id name="ttId" column="TBFN_COMP_CD_TAB_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="CompanyCode" column="TBFN_TRANS_TYP_COMP_CD" length="3" />
+    <property name="TransactionCode" column="TBFN_TRANS_TYP_CODE" length="5" />
+    <property name="Description" column="TBFN_TRANS_TYP_DESC" length="200" />
+    <property name="ShortDescription" column="TBFN_TRANS_TYP_SHRT_DESC " length="150" />
+    <property name="Branch" column="TBFN_TRANS_TYP_BRANCH" length="5" />
+    <property name="Department" column="TBFN_TRANS_TYP_DEPT" length="5" />
+    <property name="Flag" column="TBFN_TRANS_TYP_FLAG" length="3" />
+    <property name="EntryDate" column="TBFN_TRANS_TYP_KEYDTE" type="datetime" />
+    <property name="OperatorId" column="TBFN_TRANS_TYP_OPERID" length="3" />
+  </class>
+</hibernate-mapping>

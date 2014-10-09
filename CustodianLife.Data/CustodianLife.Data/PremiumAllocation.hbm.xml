@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="PremiumAllocation" table="TBFN_ALLOC_DETAIL">
+    <id name="paId" column="TBFN_ALLOC_DETAIL_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="CompanyCode" column="TBFN_TRANS_COMP" length="3" />
+    <property name="Year" column="TBFN_TRANS_YR" type="integer" />
+    <property name="ProductCode" column="TBFN_TRANS_PRDCT_CD" length="10" />
+    <property name="PolicyNo" column="TBFN_TRANS_POLY_NO" length="25"  />
+    <property name="TransDate" column="TBFN_TRANS_DATE" type="datetime" />
+    <property name="InsuredCode" column="TBFN_TRANS_INS_CODE" length="15"  />
+    <property name="TransType" column="TBFN_TRANS_TYPE" length="3"  />
+    <property name="TransNo" column="TBFN_TRANS_NO"  length="10" />
+    <property name="TotalTransAmount" column="TBFN_TRANS_TOT_AMT" type="decimal" />
+    <property name="AllocationAmount" column="TBFN_TRANS_ALLOC_AMT" type="decimal" />
+    <property name="PremiumAmount" column="TBFN_TRANS_PREM_AMT" type="decimal" />
+    <property name="LumpsumAmount" column="TBFN_TRANS_LUMP_AMT" type="decimal" />
+    <property name="PremiumRecovery" column="TBFN_TRANS_PREM_RECOVER" type="decimal" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,5567 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ABS_LIFE
+</name>
+</assembly>
+<members>
+<member name="F:ABS_LIFE.ChartOfAccountsEntryBrowse.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ChartOfAccountsEntryBrowse.frmReceiptsList">
+	<summary>
+frmReceiptsList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ChartOfAccountsEntryBrowse.cmbSearch">
+	<summary>
+cmbSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ChartOfAccountsEntryBrowse.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ChartOfAccountsEntryBrowse.butGO">
+	<summary>
+butGO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ChartOfAccountsEntryBrowse.butNew">
+	<summary>
+butNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ChartOfAccountsEntryBrowse.butClose">
+	<summary>
+butClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ChartOfAccountsEntryBrowse.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ChartOfAccountsEntryBrowse.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.EntryMenu1.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.EntryMenu1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.EntryMenu1.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.IndLifeCodes_.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.IndLifeCodes_.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.IndLifeCodes_.frmIndLifeCodes">
+	<summary>
+frmIndLifeCodes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.IndLifeCodes_.cmbCodeID">
+	<summary>
+cmbCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.IndLifeCodes_.cmbCodeType">
+	<summary>
+cmbCodeType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.IndLifeCodes_.txtCodeItem">
+	<summary>
+txtCodeItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.IndLifeCodes_.txtCodeLongDesc">
+	<summary>
+txtCodeLongDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.IndLifeCodes_.txtCodeShortDesc">
+	<summary>
+txtCodeShortDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.IndLifeCodes_.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.PRG_FIN_ACCOUNTS_CHART">
+	<summary>
+PRG_FIN_ACCOUNTS_CHART control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.litMsgs">
+	<summary>
+litMsgs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.Status">
+	<summary>
+Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblDesc1">
+	<summary>
+lblDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtCompanyCode">
+	<summary>
+txtCompanyCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtEntryDate">
+	<summary>
+txtEntryDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtMainCode">
+	<summary>
+txtMainCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtMainDesc">
+	<summary>
+txtMainDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtSubCode">
+	<summary>
+txtSubCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtSubDesc">
+	<summary>
+txtSubDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblLevel">
+	<summary>
+lblLevel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtLevel">
+	<summary>
+txtLevel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblGroup">
+	<summary>
+lblGroup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtGroup">
+	<summary>
+txtGroup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblLedgCode">
+	<summary>
+lblLedgCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtLedgerCode">
+	<summary>
+txtLedgerCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblLedgerType">
+	<summary>
+lblLedgerType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtLedgerType">
+	<summary>
+txtLedgerType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblSubGrp1">
+	<summary>
+lblSubGrp1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtSubGrp1">
+	<summary>
+txtSubGrp1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblSubGrp2">
+	<summary>
+lblSubGrp2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtSubGrp2">
+	<summary>
+txtSubGrp2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblProductType">
+	<summary>
+lblProductType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtProductType">
+	<summary>
+txtProductType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblBusType">
+	<summary>
+lblBusType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtBusType">
+	<summary>
+txtBusType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblPolicyType">
+	<summary>
+lblPolicyType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtPolicyType">
+	<summary>
+txtPolicyType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblAccountStatus">
+	<summary>
+lblAccountStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtAccountStatus">
+	<summary>
+txtAccountStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.lblAccountMode">
+	<summary>
+lblAccountMode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.txtAccountMode">
+	<summary>
+txtAccountMode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACCOUNTS_CHART.butClose">
+	<summary>
+butClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.PRG_FIN_RECPT_ISSUE">
+	<summary>
+PRG_FIN_RECPT_ISSUE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.litMsgs">
+	<summary>
+litMsgs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.Status">
+	<summary>
+Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtReceiptNo">
+	<summary>
+txtReceiptNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtEntryDate">
+	<summary>
+txtEntryDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtCompanyCode">
+	<summary>
+txtCompanyCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtSerialNo">
+	<summary>
+txtSerialNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtBatchNo">
+	<summary>
+txtBatchNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.cmbTransType">
+	<summary>
+cmbTransType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtTempReceiptNo">
+	<summary>
+txtTempReceiptNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtEffectiveDate">
+	<summary>
+txtEffectiveDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.cmbMode">
+	<summary>
+cmbMode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.cmbReceiptType">
+	<summary>
+cmbReceiptType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.lblRefNo">
+	<summary>
+lblRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtReceiptRefNo">
+	<summary>
+txtReceiptRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtInsuredCode">
+	<summary>
+txtInsuredCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtTellerNo">
+	<summary>
+txtTellerNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtAssuredAddress">
+	<summary>
+txtAssuredAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.cmbCurrencyType">
+	<summary>
+cmbCurrencyType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.csValidateCurrencyType">
+	<summary>
+csValidateCurrencyType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtAgentCode">
+	<summary>
+txtAgentCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtChequeNo">
+	<summary>
+txtChequeNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtChequeDate">
+	<summary>
+txtChequeDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.Polyeffdate">
+	<summary>
+Polyeffdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtPolicyEffDate">
+	<summary>
+txtPolicyEffDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtReceiptAmtLC">
+	<summary>
+txtReceiptAmtLC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.rvDecimal">
+	<summary>
+rvDecimal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtReceiptAmtFC">
+	<summary>
+txtReceiptAmtFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.RegularExpressionValidator1">
+	<summary>
+RegularExpressionValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtPayeeName">
+	<summary>
+txtPayeeName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtBranchCode">
+	<summary>
+txtBranchCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.cmbBranchCode">
+	<summary>
+cmbBranchCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtTransDesc1">
+	<summary>
+txtTransDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.lblBankGLCode">
+	<summary>
+lblBankGLCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtBankGLCode">
+	<summary>
+txtBankGLCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtTransDesc2">
+	<summary>
+txtTransDesc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.cmbCommissions">
+	<summary>
+cmbCommissions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.csValidateCommissions">
+	<summary>
+csValidateCommissions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtPolRegularContrib">
+	<summary>
+txtPolRegularContrib control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtMOP">
+	<summary>
+txtMOP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtMOPDesc">
+	<summary>
+txtMOPDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtMainAcctDebit">
+	<summary>
+txtMainAcctDebit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.lblMainAcctCR">
+	<summary>
+lblMainAcctCR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtMainAcctCredit">
+	<summary>
+txtMainAcctCredit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtSubAcctDebit">
+	<summary>
+txtSubAcctDebit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.lblSubAcctCR">
+	<summary>
+lblSubAcctCR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtSubAcctCredit">
+	<summary>
+txtSubAcctCredit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtMainAcctDebitDesc">
+	<summary>
+txtMainAcctDebitDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtSubAcctDebitDesc">
+	<summary>
+txtSubAcctDebitDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtMainAcctCreditDesc">
+	<summary>
+txtMainAcctCreditDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtSubAcctCreditDesc">
+	<summary>
+txtSubAcctCreditDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtAssuredName">
+	<summary>
+txtAssuredName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtAgentName">
+	<summary>
+txtAgentName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.butSaveN">
+	<summary>
+butSaveN control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.butPrint">
+	<summary>
+butPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.butClose">
+	<summary>
+butClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.txtRecptNo">
+	<summary>
+txtRecptNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECPT_ISSUE.butPrintReceipt">
+	<summary>
+butPrintReceipt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.cmbModule">
+	<summary>
+cmbModule control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.cmbProductCode">
+	<summary>
+cmbProductCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.txtRateTypeCode">
+	<summary>
+txtRateTypeCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.txtRateTypeDesc">
+	<summary>
+txtRateTypeDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.txtRatePer">
+	<summary>
+txtRatePer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATE_TYPES.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptsList.frmReceiptsList">
+	<summary>
+frmReceiptsList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptsList.cmbSearch">
+	<summary>
+cmbSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptsList.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptsList.butGO">
+	<summary>
+butGO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptsList.butNew">
+	<summary>
+butNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptsList.butClose">
+	<summary>
+butClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptsList.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptsList.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.testTemplate.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.PRG_FIN_BANK_SETUP">
+	<summary>
+PRG_FIN_BANK_SETUP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.cmbCoyCode">
+	<summary>
+cmbCoyCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.cmbStartBankDiv">
+	<summary>
+cmbStartBankDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.cmbEndBankDiv">
+	<summary>
+cmbEndBankDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.cmbStartDept">
+	<summary>
+cmbStartDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.cmbEndDept">
+	<summary>
+cmbEndDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.cmbTransType">
+	<summary>
+cmbTransType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.cmbPayMode">
+	<summary>
+cmbPayMode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.txtBankCode">
+	<summary>
+txtBankCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.txtGLMainAcct">
+	<summary>
+txtGLMainAcct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.txtGLSubAcct">
+	<summary>
+txtGLSubAcct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.cmbBranch">
+	<summary>
+cmbBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_BANK_SETUP.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.PRG_LI_TRTY_PRPTN">
+	<summary>
+PRG_LI_TRTY_PRPTN control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.cmbModuleID">
+	<summary>
+cmbModuleID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.txtTreatyYear">
+	<summary>
+txtTreatyYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.txtTreatyCoy">
+	<summary>
+txtTreatyCoy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.cmbTreatyType">
+	<summary>
+cmbTreatyType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.txtStartSAValue">
+	<summary>
+txtStartSAValue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_PRPTN.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.PRG_LI_TRTY_COMM">
+	<summary>
+PRG_LI_TRTY_COMM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.cmbModuleID">
+	<summary>
+cmbModuleID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.txtTreatyCommYear">
+	<summary>
+txtTreatyCommYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.cmbTreatyType">
+	<summary>
+cmbTreatyType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.cmbProductCode">
+	<summary>
+cmbProductCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.txtStartSAPeriod">
+	<summary>
+txtStartSAPeriod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.txtEndSAPeriod">
+	<summary>
+txtEndSAPeriod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.txtStartSAAmt">
+	<summary>
+txtStartSAAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.txtEndSAAmt">
+	<summary>
+txtEndSAAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.txtCommRate">
+	<summary>
+txtCommRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_TRTY_COMM.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptPrint.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptPrint.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptPrint.butView">
+	<summary>
+butView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptPrint.butPrintList">
+	<summary>
+butPrintList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.RECREATE.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.PRG_LI_CODES">
+	<summary>
+PRG_LI_CODES control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.cmbCodeID">
+	<summary>
+cmbCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.cmbCodeType">
+	<summary>
+cmbCodeType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.txtCodeItem">
+	<summary>
+txtCodeItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.txtCodeLongDesc">
+	<summary>
+txtCodeLongDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.txtCodeShortDesc">
+	<summary>
+txtCodeShortDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_CODES.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.frmReceiptsList">
+	<summary>
+frmReceiptsList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.cmbSearch">
+	<summary>
+cmbSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.cmbDirection">
+	<summary>
+cmbDirection control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.butGO">
+	<summary>
+butGO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.butNew">
+	<summary>
+butNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.butClose">
+	<summary>
+butClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.ReceiptOthersList.txtProgType">
+	<summary>
+txtProgType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.frmAccountChartSearch">
+	<summary>
+frmAccountChartSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.cmbChoice">
+	<summary>
+cmbChoice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.cmbSearchAccount">
+	<summary>
+cmbSearchAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.cmbSearchAgent">
+	<summary>
+cmbSearchAgent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.butGO">
+	<summary>
+butGO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.grdView">
+	<summary>
+grdView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.grdView1">
+	<summary>
+grdView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.ods2">
+	<summary>
+ods2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.txtValue">
+	<summary>
+txtValue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.txtDesc">
+	<summary>
+txtDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.txtValue1">
+	<summary>
+txtValue1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.txtDesc1">
+	<summary>
+txtDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.txtDesc2">
+	<summary>
+txtDesc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.AccountChartBrowse.txtParentCode">
+	<summary>
+txtParentCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.EntryMenu.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.EntryMenu.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.PRG_LI_AGCY_COMM">
+	<summary>
+PRG_LI_AGCY_COMM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.cmbProductCodeID">
+	<summary>
+cmbProductCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.txtCollectionStartYear">
+	<summary>
+txtCollectionStartYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.txtCollectionEndYear">
+	<summary>
+txtCollectionEndYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.txtPolicyTermStart">
+	<summary>
+txtPolicyTermStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.txtPolicyTermEnd">
+	<summary>
+txtPolicyTermEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.txtAgencyCommRate">
+	<summary>
+txtAgencyCommRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_COMM.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.PRG_LI_BRK_COMM">
+	<summary>
+PRG_LI_BRK_COMM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.cmbProductCodeID">
+	<summary>
+cmbProductCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.txtStartYear">
+	<summary>
+txtStartYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.txtEndYear">
+	<summary>
+txtEndYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.txtPolicyTermStart">
+	<summary>
+txtPolicyTermStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.txtPolicyTermEnd">
+	<summary>
+txtPolicyTermEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.txtBrokersCommRate">
+	<summary>
+txtBrokersCommRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BRK_COMM.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.PRG_LI_LOAN_REQST">
+	<summary>
+PRG_LI_LOAN_REQST control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.cmbProductCode">
+	<summary>
+cmbProductCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.cmbLoanCodeID">
+	<summary>
+cmbLoanCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtPolicyNo">
+	<summary>
+txtPolicyNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtLoanRequestDate">
+	<summary>
+txtLoanRequestDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtRefNo">
+	<summary>
+txtRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtMaximumAmtLocal">
+	<summary>
+txtMaximumAmtLocal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtMaximumAmtForeign">
+	<summary>
+txtMaximumAmtForeign control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtAmtGrantedLC">
+	<summary>
+txtAmtGrantedLC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtAmtGrantedFC">
+	<summary>
+txtAmtGrantedFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.cmbRepaymentFreq">
+	<summary>
+cmbRepaymentFreq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtRepayNoOfInstal">
+	<summary>
+txtRepayNoOfInstal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtStartDate">
+	<summary>
+txtStartDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtRepaymentAmtLC">
+	<summary>
+txtRepaymentAmtLC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtRepaymentAmtFC">
+	<summary>
+txtRepaymentAmtFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.cmbInterestRate">
+	<summary>
+cmbInterestRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtInterestAmtLC">
+	<summary>
+txtInterestAmtLC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtInterestAmtFC">
+	<summary>
+txtInterestAmtFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtDisbursementChargeLC">
+	<summary>
+txtDisbursementChargeLC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtDisbursementChargeFC">
+	<summary>
+txtDisbursementChargeFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtFirstInstalAmtLC">
+	<summary>
+txtFirstInstalAmtLC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.txtFirstInstalAmtFC">
+	<summary>
+txtFirstInstalAmtFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN__REQST.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.PRG_LI_PRD_DTL">
+	<summary>
+PRG_LI_PRD_DTL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.cmbPrdSysModule">
+	<summary>
+cmbPrdSysModule control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.cmbProductCategory">
+	<summary>
+cmbProductCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.txtProductDetailsCode">
+	<summary>
+txtProductDetailsCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.txtDetailsDesc">
+	<summary>
+txtDetailsDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.cmbPlanCd">
+	<summary>
+cmbPlanCd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.cmbAgeCalc">
+	<summary>
+cmbAgeCalc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.cmbSumAssuredMultiplePay">
+	<summary>
+cmbSumAssuredMultiplePay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.txtFirstSAInstallPcent">
+	<summary>
+txtFirstSAInstallPcent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.txtFirstSAInstalPayPeriod">
+	<summary>
+txtFirstSAInstalPayPeriod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.txtSecondSAInstalPcent">
+	<summary>
+txtSecondSAInstalPcent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.txtSecondSAInstalPayPeriod">
+	<summary>
+txtSecondSAInstalPayPeriod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.txtThirdSAInstalPcent">
+	<summary>
+txtThirdSAInstalPcent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.txtThirdSAInstalPayPeriod">
+	<summary>
+txtThirdSAInstalPayPeriod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_DTL.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:ABS_LIFE.ReceiptPrint.AddAutoIncrementField(System.Data.DataTable)">
+	<summary>
+ This adds an identity field to a data filled table
+ </summary>
+	<param name="ATable">the data filled table </param>
+	<returns>data table with an identity field</returns>
+	<remarks>Used this identitied table for report purposes i.e. grouping</remarks>
+</member><member name="P:ABS_LIFE.SiteGlobal.ReportPath">
+	<summary>
+ Full site title tag at root.
+ </summary>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.PRG_FIN_COMP_CODE">
+	<summary>
+PRG_FIN_COMP_CODE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.cmbCoyCode">
+	<summary>
+cmbCoyCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.txtGLMainCode">
+	<summary>
+txtGLMainCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.txtGLSubCode">
+	<summary>
+txtGLSubCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.txtActivityCode">
+	<summary>
+txtActivityCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.txtActivityDesc">
+	<summary>
+txtActivityDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_ACTVTY_CD_SETUP.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.PRG_LI_REQ_ENTRY">
+	<summary>
+PRG_LI_REQ_ENTRY control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.cmbPrdSysModule">
+	<summary>
+cmbPrdSysModule control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtPolicyNo">
+	<summary>
+txtPolicyNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtClaimsNo">
+	<summary>
+txtClaimsNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtUnderwritingYear">
+	<summary>
+txtUnderwritingYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtProductCode">
+	<summary>
+txtProductCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.cmbClaimsType">
+	<summary>
+cmbClaimsType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtPolicyStartDate">
+	<summary>
+txtPolicyStartDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtPolicyEndDate">
+	<summary>
+txtPolicyEndDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtEffectiveDate">
+	<summary>
+txtEffectiveDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtNotificationDate">
+	<summary>
+txtNotificationDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtBasicClaimsAmtLC">
+	<summary>
+txtBasicClaimsAmtLC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtBasicClaimsAmtFC">
+	<summary>
+txtBasicClaimsAmtFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtAddClaimsAmtLC">
+	<summary>
+txtAddClaimsAmtLC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtAddClaimsAmtFC">
+	<summary>
+txtAddClaimsAmtFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtClaimsDescription">
+	<summary>
+txtClaimsDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.txtAssuredAge">
+	<summary>
+txtAssuredAge control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.LossTypeCode">
+	<summary>
+LossTypeCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_REQ_ENTRY.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:ABS_LIFE.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:ABS_LIFE.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:ABS_LIFE.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:ABS_LIFE.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:ABS_LIFE.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:ABS_LIFE.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.PRG_FIN_TRANS_CODE">
+	<summary>
+PRG_FIN_TRANS_CODE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.cmbCoyCode">
+	<summary>
+cmbCoyCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.txtTransCode">
+	<summary>
+txtTransCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.txtTransCodeDesc">
+	<summary>
+txtTransCodeDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.cmbBranch">
+	<summary>
+cmbBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.cmbDepts">
+	<summary>
+cmbDepts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_TRANS_CODE.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.PRG_LI_INT_RATE">
+	<summary>
+PRG_LI_INT_RATE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.cmbProductCodeID">
+	<summary>
+cmbProductCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.cmbRateType">
+	<summary>
+cmbRateType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.txtStartContribAmt">
+	<summary>
+txtStartContribAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.txtEndContribAmt">
+	<summary>
+txtEndContribAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.txtStartPolicyTerm">
+	<summary>
+txtStartPolicyTerm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.txtEndPolicyTerm">
+	<summary>
+txtEndPolicyTerm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.txtInterestRate">
+	<summary>
+txtInterestRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.txtRatePer">
+	<summary>
+txtRatePer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.txtRateStartDate">
+	<summary>
+txtRateStartDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.txtRateEndDate">
+	<summary>
+txtRateEndDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_INT_RATE.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.PRG_LI_LOAN_INT_RT">
+	<summary>
+PRG_LI_LOAN_INT_RT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.cmbLoanCodeID">
+	<summary>
+cmbLoanCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.txtStartLoanAmt">
+	<summary>
+txtStartLoanAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.txtEndLoanAmt">
+	<summary>
+txtEndLoanAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.txtInterestRate">
+	<summary>
+txtInterestRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.txtInterestRatePer">
+	<summary>
+txtInterestRatePer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_LOAN_INT_RT.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.PRG_LI_COV_MST">
+	<summary>
+PRG_LI_COV_MST control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.cmbModuleID">
+	<summary>
+cmbModuleID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.cmbProductCode">
+	<summary>
+cmbProductCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.txtCoverCode">
+	<summary>
+txtCoverCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.txtCodeDesc">
+	<summary>
+txtCodeDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.cmbCoverType">
+	<summary>
+cmbCoverType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.cmbBasicRate">
+	<summary>
+cmbBasicRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.cmbCoverRateOn">
+	<summary>
+cmbCoverRateOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.txtSAPcent">
+	<summary>
+txtSAPcent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.txtMinSACover">
+	<summary>
+txtMinSACover control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.txtMaxSACover">
+	<summary>
+txtMaxSACover control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.cmbFundType">
+	<summary>
+cmbFundType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_COV_MST.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.cmbModule">
+	<summary>
+cmbModule control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.txtStartSA">
+	<summary>
+txtStartSA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.txtEndSA">
+	<summary>
+txtEndSA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.txtStartAge">
+	<summary>
+txtStartAge control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.txtEndAge">
+	<summary>
+txtEndAge control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.cmbProductCode">
+	<summary>
+cmbProductCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRO_LI_MEDICAL_DTLS.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.frmPolicyNoSearch">
+	<summary>
+frmPolicyNoSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.cmbSearchPolicy">
+	<summary>
+cmbSearchPolicy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.butGO">
+	<summary>
+butGO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.grdView">
+	<summary>
+grdView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.txtValue">
+	<summary>
+txtValue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.txtDesc">
+	<summary>
+txtDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.txtValue1">
+	<summary>
+txtValue1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.txtDesc1">
+	<summary>
+txtDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PolicyBrowse.txtDesc2">
+	<summary>
+txtDesc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.PRG_FIN_RECVBLE_ENTRY">
+	<summary>
+PRG_FIN_RECVBLE_ENTRY control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.litMsgs">
+	<summary>
+litMsgs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.Status">
+	<summary>
+Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblDesc">
+	<summary>
+lblDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblDesc1">
+	<summary>
+lblDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblRcptNum">
+	<summary>
+lblRcptNum control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtReceiptNo">
+	<summary>
+txtReceiptNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtEntryDate">
+	<summary>
+txtEntryDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtCompanyCode">
+	<summary>
+txtCompanyCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtSerialNo">
+	<summary>
+txtSerialNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtBatchNo">
+	<summary>
+txtBatchNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtBatchDate">
+	<summary>
+txtBatchDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.cmbTransType">
+	<summary>
+cmbTransType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.cmbDept">
+	<summary>
+cmbDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblMode">
+	<summary>
+lblMode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.cmbMode">
+	<summary>
+cmbMode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblRcptDate">
+	<summary>
+lblRcptDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtEffectiveDate">
+	<summary>
+txtEffectiveDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtProgType">
+	<summary>
+txtProgType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtTellerNo">
+	<summary>
+txtTellerNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtTellerDate">
+	<summary>
+txtTellerDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtChequeNo">
+	<summary>
+txtChequeNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtChequeDate">
+	<summary>
+txtChequeDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.cmbCurrencyType">
+	<summary>
+cmbCurrencyType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.csValidateCurrencyType">
+	<summary>
+csValidateCurrencyType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.cmbBranchCode">
+	<summary>
+cmbBranchCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtTotalAmt">
+	<summary>
+txtTotalAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.Polyeffdate">
+	<summary>
+Polyeffdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtPolicyEffDate">
+	<summary>
+txtPolicyEffDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblPayeeName">
+	<summary>
+lblPayeeName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtPayeeName">
+	<summary>
+txtPayeeName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblRemarks">
+	<summary>
+lblRemarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtRemarks">
+	<summary>
+txtRemarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblTransDesc">
+	<summary>
+lblTransDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtTransDesc">
+	<summary>
+txtTransDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butNew">
+	<summary>
+butNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butPrint">
+	<summary>
+butPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butClose">
+	<summary>
+butClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblMainAC">
+	<summary>
+lblMainAC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblSubAC">
+	<summary>
+lblSubAC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblLedgerType">
+	<summary>
+lblLedgerType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblTranType">
+	<summary>
+lblTranType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblDRCR">
+	<summary>
+lblDRCR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblRef1">
+	<summary>
+lblRef1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblRef2">
+	<summary>
+lblRef2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblRef3">
+	<summary>
+lblRef3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblTranAmt">
+	<summary>
+lblTranAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtMainAcct">
+	<summary>
+txtMainAcct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtSubAcct">
+	<summary>
+txtSubAcct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtLedgerType">
+	<summary>
+txtLedgerType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.cmbTransDetailType">
+	<summary>
+cmbTransDetailType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.cmbDRCR">
+	<summary>
+cmbDRCR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.CustomValidator1">
+	<summary>
+CustomValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtReceiptRefNo1">
+	<summary>
+txtReceiptRefNo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtReceiptRefNo2">
+	<summary>
+txtReceiptRefNo2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtReceiptRefNo3">
+	<summary>
+txtReceiptRefNo3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtTransAmt">
+	<summary>
+txtTransAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.vdamt">
+	<summary>
+vdamt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtSubSerialNo">
+	<summary>
+txtSubSerialNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblRefDate">
+	<summary>
+lblRefDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtRefDate">
+	<summary>
+txtRefDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblRefAmt">
+	<summary>
+lblRefAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtRefAmt">
+	<summary>
+txtRefAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butSaveDetail">
+	<summary>
+butSaveDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butNewDetail">
+	<summary>
+butNewDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butDeleteDetail">
+	<summary>
+butDeleteDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butPrintDetail">
+	<summary>
+butPrintDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtMainAcctDesc">
+	<summary>
+txtMainAcctDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtSubAcctDesc">
+	<summary>
+txtSubAcctDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtRefDesc1">
+	<summary>
+txtRefDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtRefDesc2">
+	<summary>
+txtRefDesc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtRefDesc3">
+	<summary>
+txtRefDesc3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblDesc2">
+	<summary>
+lblDesc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.lblPrintLabel">
+	<summary>
+lblPrintLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.txtRecptNo">
+	<summary>
+txtRecptNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECVBLE_ENTRY.butPrintReceipt">
+	<summary>
+butPrintReceipt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.PRG_LI_AGCY_BUDGET">
+	<summary>
+PRG_LI_AGCY_BUDGET control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.cmbAgentTypeCode">
+	<summary>
+cmbAgentTypeCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.txtBudgetAmount">
+	<summary>
+txtBudgetAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.txtBonusAmount">
+	<summary>
+txtBonusAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.txtStartNewAgentMonth">
+	<summary>
+txtStartNewAgentMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.txtEndNewAgentMonth">
+	<summary>
+txtEndNewAgentMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.txtCollectionExpRate">
+	<summary>
+txtCollectionExpRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.txtAddCollectionExpRate">
+	<summary>
+txtAddCollectionExpRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.txtLunchModeRate">
+	<summary>
+txtLunchModeRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_AGCY_BUDGET.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.PRG_LI_UNDW_RATES">
+	<summary>
+PRG_LI_UNDW_RATES control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.cmbModule">
+	<summary>
+cmbModule control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.cmbProductCodeID">
+	<summary>
+cmbProductCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.cmbRateType">
+	<summary>
+cmbRateType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.txtStartPolicyTerm">
+	<summary>
+txtStartPolicyTerm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.txtEndPolicyTerm">
+	<summary>
+txtEndPolicyTerm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.txtStartAge">
+	<summary>
+txtStartAge control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.txtEndAge">
+	<summary>
+txtEndAge control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.txtPremiumRate">
+	<summary>
+txtPremiumRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_RATES.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.PRG_FIN_CREDITORS_ENTRY">
+	<summary>
+PRG_FIN_CREDITORS_ENTRY control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.litMsgs">
+	<summary>
+litMsgs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.Status">
+	<summary>
+Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblDesc">
+	<summary>
+lblDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblDesc1">
+	<summary>
+lblDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblRcptNum">
+	<summary>
+lblRcptNum control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtReceiptNo">
+	<summary>
+txtReceiptNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtEntryDate">
+	<summary>
+txtEntryDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtCompanyCode">
+	<summary>
+txtCompanyCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtSerialNo">
+	<summary>
+txtSerialNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtBatchNo">
+	<summary>
+txtBatchNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtBatchDate">
+	<summary>
+txtBatchDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.cmbTransType">
+	<summary>
+cmbTransType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.cmbDept">
+	<summary>
+cmbDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblBranch">
+	<summary>
+lblBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.cmbBranchCode">
+	<summary>
+cmbBranchCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblInvoiceDate">
+	<summary>
+lblInvoiceDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtEffectiveDate">
+	<summary>
+txtEffectiveDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtProgType">
+	<summary>
+txtProgType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtTransDesc">
+	<summary>
+txtTransDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.Polyeffdate">
+	<summary>
+Polyeffdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtPolicyEffDate">
+	<summary>
+txtPolicyEffDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblMainAC">
+	<summary>
+lblMainAC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblSubAC">
+	<summary>
+lblSubAC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblTranType">
+	<summary>
+lblTranType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblRef1">
+	<summary>
+lblRef1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblTranAmt">
+	<summary>
+lblTranAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtMainAcct">
+	<summary>
+txtMainAcct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtSubAcct">
+	<summary>
+txtSubAcct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.cmbTransDetailType">
+	<summary>
+cmbTransDetailType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtReceiptRefNo1">
+	<summary>
+txtReceiptRefNo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtItem">
+	<summary>
+txtItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.vdItem">
+	<summary>
+vdItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtPrice">
+	<summary>
+txtPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.vdPrice">
+	<summary>
+vdPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtQty">
+	<summary>
+txtQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.vdQty">
+	<summary>
+vdQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtTransAmt">
+	<summary>
+txtTransAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.vdamt">
+	<summary>
+vdamt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblRefDate">
+	<summary>
+lblRefDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtRefDate">
+	<summary>
+txtRefDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblRefAmt">
+	<summary>
+lblRefAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtRefAmt">
+	<summary>
+txtRefAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.butSaveDetail">
+	<summary>
+butSaveDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.butNewDetail">
+	<summary>
+butNewDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.butDeleteDetail">
+	<summary>
+butDeleteDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.butPrintDetail">
+	<summary>
+butPrintDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.butClose">
+	<summary>
+butClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.lblDesc2">
+	<summary>
+lblDesc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtMainAcctDesc">
+	<summary>
+txtMainAcctDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtSubAcctDesc">
+	<summary>
+txtSubAcctDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtRefDesc1">
+	<summary>
+txtRefDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtRefDesc2">
+	<summary>
+txtRefDesc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtRefDesc3">
+	<summary>
+txtRefDesc3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.txtInvoiceNo">
+	<summary>
+txtInvoiceNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_CREDITORS_ENTRY.butPrintReceipt">
+	<summary>
+butPrintReceipt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.PRG_LI_PLAN_MST">
+	<summary>
+PRG_LI_PLAN_MST control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.cmbProductCode">
+	<summary>
+cmbProductCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtPlanCode">
+	<summary>
+txtPlanCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtPlanTerm">
+	<summary>
+txtPlanTerm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtPlanMinYears">
+	<summary>
+txtPlanMinYears control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtPlanMaxYears">
+	<summary>
+txtPlanMaxYears control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtPlanMinAge">
+	<summary>
+txtPlanMinAge control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtPlanMaxAge">
+	<summary>
+txtPlanMaxAge control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtPlanMinSA">
+	<summary>
+txtPlanMinSA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtPlanMaxSA">
+	<summary>
+txtPlanMaxSA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.cmbPaymentMaturityBased">
+	<summary>
+cmbPaymentMaturityBased control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.cmbSAPeriodic">
+	<summary>
+cmbSAPeriodic control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.cmbPaymentSurrenderBased">
+	<summary>
+cmbPaymentSurrenderBased control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtMaxNoOfYrBeforeSurr">
+	<summary>
+txtMaxNoOfYrBeforeSurr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.cmbLoanAllowed">
+	<summary>
+cmbLoanAllowed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtLoanPcentSA">
+	<summary>
+txtLoanPcentSA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtMinLoanAmt">
+	<summary>
+txtMinLoanAmt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.cmbPolicyValidAfterMaturity">
+	<summary>
+cmbPolicyValidAfterMaturity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtAnnualPaymentModeRate">
+	<summary>
+txtAnnualPaymentModeRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtHalfYrPaymentModeRate">
+	<summary>
+txtHalfYrPaymentModeRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtQtrPaymentModeRate">
+	<summary>
+txtQtrPaymentModeRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.txtMthPaymentModeRate">
+	<summary>
+txtMthPaymentModeRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PLAN_MST.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.StartPage.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECV_RECPT_PRINT.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECV_RECPT_PRINT.lblDesc2">
+	<summary>
+lblDesc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECV_RECPT_PRINT.lblPrintLabel">
+	<summary>
+lblPrintLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECV_RECPT_PRINT.txtRecptNo">
+	<summary>
+txtRecptNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECV_RECPT_PRINT.butPrintReceipt">
+	<summary>
+butPrintReceipt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECV_RECPT_PRINT.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.PRG_LI_INT_RATE">
+	<summary>
+PRG_LI_INT_RATE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.cmbProductCodeID">
+	<summary>
+cmbProductCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.cmbRateType">
+	<summary>
+cmbRateType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.txtBonusYear">
+	<summary>
+txtBonusYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.txtBonusRate">
+	<summary>
+txtBonusRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.txtRatePer">
+	<summary>
+txtRatePer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_BONUS_INT_RT.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.cmbModule">
+	<summary>
+cmbModule control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.cmbCatCode">
+	<summary>
+cmbCatCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.txtCodeLongDesc">
+	<summary>
+txtCodeLongDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.txtCodeShortDesc">
+	<summary>
+txtCodeShortDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_PRD_CAT.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.PRG_FIN_COMP_CODE">
+	<summary>
+PRG_FIN_COMP_CODE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtCoyCode">
+	<summary>
+txtCoyCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtLongName">
+	<summary>
+txtLongName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtShortName">
+	<summary>
+txtShortName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtAddress1">
+	<summary>
+txtAddress1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtAddress2">
+	<summary>
+txtAddress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtPhone1">
+	<summary>
+txtPhone1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtPhone2">
+	<summary>
+txtPhone2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtRegNo">
+	<summary>
+txtRegNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtEmail1">
+	<summary>
+txtEmail1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtEmail2">
+	<summary>
+txtEmail2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.cmbStatus">
+	<summary>
+cmbStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.txtDateEstablished">
+	<summary>
+txtDateEstablished control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_COMP_CODE.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECEPT_PRINT.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECEPT_PRINT.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_FIN_RECEPT_PRINT.CrystalReportSource1">
+	<summary>
+CrystalReportSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.frmIndLifeCodes">
+	<summary>
+frmIndLifeCodes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.cmbCodeID">
+	<summary>
+cmbCodeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.cmbCodeType">
+	<summary>
+cmbCodeType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.txtCodeItem">
+	<summary>
+txtCodeItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.txtCodeLongDesc">
+	<summary>
+txtCodeLongDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.txtCodeShortDesc">
+	<summary>
+txtCodeShortDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.butSave">
+	<summary>
+butSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.butDelete">
+	<summary>
+butDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ABS_LIFE.PRG_LI_UNDW_CODE.ods1">
+	<summary>
+ods1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

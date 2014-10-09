@@ -1,0 +1,10 @@
+C:\production\WEB APPS\CustodianLife\CustodianLife.Model\CustodianLife.Model\bin\Debug\CustodianLife.Model.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Model\CustodianLife.Model\bin\Debug\CustodianLife.Model.pdb
+C:\production\WEB APPS\CustodianLife\CustodianLife.Model\CustodianLife.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\production\WEB APPS\CustodianLife\CustodianLife.Model\CustodianLife.Model\obj\Debug\CustodianLife.Model.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Model\CustodianLife.Model\obj\Debug\CustodianLife.Model.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Model\CustodianLife.Model\bin\Debug\CustodianLife.Model.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Model\CustodianLife.Model\bin\Debug\CustodianLife.Model.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Model\CustodianLife.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Model\CustodianLife.Model\obj\Debug\CustodianLife.Model.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Model\CustodianLife.Model\obj\Debug\CustodianLife.Model.pdb

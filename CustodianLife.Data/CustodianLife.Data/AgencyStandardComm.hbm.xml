@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="AgencyStandardComm" table="TBIL_AGCY_COMM_RATE">
+    <id name="acId" column="TBIL_AGCY_REC_ID">
+      <generator class="identity"  />
+    </id>
+    <property name="ProductCode" column="TBIL_AGCY_COMM_PRD_CD" length="3" />
+    <property name="CollectionStartYear" column="TBIL_AGCY_YR_FROM" type="integer" />
+    <property name="CollectionEndYear" column="TBIL_AGCY_YR_TO" type="integer" />
+    <property name="PolicyTermStart" column="TBIL_AGCY_TERM_FROM" type="integer" />
+    <property name="PolicyTermEnd" column="TBIL_AGCY_TERM_TO" type="integer"/>
+    <property name="CommissionRate" column="TBIL_AGCY_COMM_RATE" type="decimal" />
+  </class>
+</hibernate-mapping>

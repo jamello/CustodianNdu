@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="Invoice" table="TBFN_CRED_MASTER">
+    <id name="InId" column="TBFN_CRED_REC_ID" >
+      <generator class="identity"/>
+    </id>
+    <property name="CompanyCode" column="TBFN_CRD_COMP" length="3" />
+    <property name="BatchDate" column="TBFN_CRD_PROC_DATE" type="int" />
+    <property name="BranchCode" column="TBFN_CRD_BRANCH_NO" length="10" />
+    <property name="BatchNo" column="TBFN_CRD_BATCH_NO" length="10" />
+    <property name="SerialNo" column="TBFN_CRD_SER_NO" type="integer" />
+    <property name="RecordType" column="TBFN_CRD_REC_TYP" length="5" />
+    <property name="DeptCode" column="TBFN_CRD_DEPT" length="5"/>
+    <property name="InvoiceNo" column="TBFN_CRD_TRANS_NO" length="15" />
+    <property name="TransDate" column="TBFN_CRD_TRANS_DATE" type="datetime"  />
+    <property name="TransType" column="TBFN_CRD_TRANS_TYPE" length="5" />
+    <property name="ItemSize" column="TBFN_CRD_ITEM_SIZE" length="15" />
+    <property name="Quantity" column="TBFN_CRD_ITEM_QTY" type="integer" />
+    <property name="Price" column="TBFN_CRD_ITEM_PRICE" type="decimal"/>
+    <property name="TransAmt" column="TBFN_CRD_TRANS_AMT" type="decimal"/>
+    <property name="DRCR" column="TBFN_CRD_DRCR_CODE" length="3" />
+    <property name="CreditorCode" column="TBFN_CRD_ACCT_NO" length="20" />
+    <property name="CreditorType" column="TBFN_CRD_ACCT_TYPE" length="6"  />
+    <property name="MainAccountDR" column="TBFN_CRD_MAIN_ACCT_NO_DR" length="20"/>
+    <property name="SubAccountDR" column="TBFN_CRD_SUB_ACCT_NO_DR" length="20"/>
+    <property name="LedgerTypeCode" column="TBFN_CRD_LEDG_TYPE_DR" length="3"/>
+    <property name="TransDescription" column="TBFN_CRD_TRANS_DESC" length="100"/>
+    <property name="RefNo" column="TBFN_CRD_TRANS_REF_NO" length="5"/>
+    <property name="RefDate" column="TBFN_CRD_CHQ_REF_DATE" type="datetime"/>
+    <property name="PostStatus" column="TBFN_CRD_POST_STATUS" length="1"/>
+    <property name="ApprovalStatus" column="TBFN_CRD_APPROVED" length="1"/>
+    <property name="Flag" column="TBFN_CRD_FLAG" length="3"/>
+    <property name="EntryDate" column="TBFN_CRD_KEYDTE" type="datetime"/>
+    <property name="OperatorId" column="TBFN_CRD_OPERID" length="3"/>
+  </class>
+</hibernate-mapping>
+

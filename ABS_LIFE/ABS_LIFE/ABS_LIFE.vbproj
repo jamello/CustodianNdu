@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{837CEE77-B75A-473F-BEC3-DBF857CAB8FA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ABS_LIFE</RootNamespace>
+    <AssemblyName>ABS_LIFE</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ABS_LIFE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ABS_LIFE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.Web\10.5.3700.0__692fbea5521e1304\CrystalDecisions.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ABS_LIFE.dll" />
+    <Content Include="bin\ABS_LIFE.pdb" />
+    <Content Include="bin\ABS_LIFE.xml" />
+    <Content Include="bin\Antlr3.Runtime.dll" />
+    <Content Include="bin\C5.dll" />
+    <Content Include="bin\Castle.Core.dll" />
+    <Content Include="bin\Castle.Core.xml" />
+    <Content Include="bin\Castle.DynamicProxy2.dll" />
+    <Content Include="bin\Castle.DynamicProxy2.xml" />
+    <Content Include="bin\Common.Logging.dll" />
+    <Content Include="bin\CustodianLife.Data.dll" />
+    <Content Include="bin\CustodianLife.Data.pdb" />
+    <Content Include="bin\CustodianLife.Model.dll" />
+    <Content Include="bin\CustodianLife.Model.pdb" />
+    <Content Include="bin\CustodianLife.Repositories.dll" />
+    <Content Include="bin\CustodianLife.Repositories.pdb" />
+    <Content Include="bin\Iesi.Collections.dll" />
+    <Content Include="bin\Iesi.Collections.xml" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\log4net.xml" />
+    <Content Include="bin\NHibernate.ByteCode.Castle.dll" />
+    <Content Include="bin\NHibernate.ByteCode.Castle.xml" />
+    <Content Include="bin\NHibernate.dll" />
+    <Content Include="bin\NHibernate.xml" />
+    <Content Include="css\general.css" />
+    <Content Include="css\grid.css" />
+    <Content Include="css\rounded.css" />
+    <Content Include="img\asc.gif" />
+    <Content Include="img\bl.gif" />
+    <Content Include="img\bm.gif" />
+    <Content Include="img\body-bg.gif" />
+    <Content Include="img\br.gif" />
+    <Content Include="img\bullet.gif" />
+    <Content Include="img\cal.gif" />
+    <Content Include="img\desc.gif" />
+    <Content Include="img\greenArrow.png" />
+    <Content Include="img\l.gif" />
+    <Content Include="img\login_key.jpg" />
+    <Content Include="img\next.gif" />
+    <Content Include="img\next_mon.gif" />
+    <Content Include="img\next_year.gif" />
+    <Content Include="img\no_cal.gif" />
+    <Content Include="img\pixel.gif" />
+    <Content Include="img\prev.gif" />
+    <Content Include="img\prev_mon.gif" />
+    <Content Include="img\prev_year.gif" />
+    <Content Include="img\r.gif" />
+    <Content Include="img\redArrow.png" />
+    <Content Include="img\shade_bl.png" />
+    <Content Include="img\shade_bm.png" />
+    <Content Include="img\shade_br.png" />
+    <Content Include="img\shade_mr.png" />
+    <Content Include="img\shade_tr.png" />
+    <Content Include="img\tl.gif" />
+    <Content Include="img\tm.gif" />
+    <Content Include="img\tr.gif" />
+    <Content Include="PRG_LI_AGCY_COMM.aspx" />
+    <Content Include="PRG_LI_COV_MST.aspx" />
+    <Content Include="PRG_LI_LOAN_INT_RT.aspx" />
+    <Content Include="PRG_LI_PRD_CAT.aspx" />
+    <Content Include="PRG_LI_PRD_DTL.aspx" />
+    <Content Include="PRG_LI_UNDW_CODE.aspx" />
+    <Content Include="RECREATE.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountChartBrowse.aspx.designer.vb">
+      <DependentUpon>AccountChartBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccountChartBrowse.aspx.vb">
+      <DependentUpon>AccountChartBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ChartOfAccountsEntryBrowse.aspx.designer.vb">
+      <DependentUpon>ChartOfAccountsEntryBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChartOfAccountsEntryBrowse.aspx.vb">
+      <DependentUpon>ChartOfAccountsEntryBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CrystalRep.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EntryMenu.aspx.designer.vb">
+      <DependentUpon>EntryMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EntryMenu.aspx.vb">
+      <DependentUpon>EntryMenu.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EntryMenu1.aspx.designer.vb">
+      <DependentUpon>EntryMenu1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EntryMenu1.aspx.vb">
+      <DependentUpon>EntryMenu1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="IndLifeCodes..aspx.designer.vb">
+      <DependentUpon>IndLifeCodes..aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IndLifeCodes..aspx.vb">
+      <DependentUpon>IndLifeCodes..aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LifeReceipt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LifeReceipt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NEW_TBL.aspx.vb">
+      <DependentUpon>NEW_TBL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PolicyBrowse.aspx.designer.vb">
+      <DependentUpon>PolicyBrowse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PolicyBrowse.aspx.vb">
+      <DependentUpon>PolicyBrowse.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_ACCOUNTS_CHART.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_ACCOUNTS_CHART.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_ACCOUNTS_CHART.aspx.vb">
+      <DependentUpon>PRG_FIN_ACCOUNTS_CHART.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_ACTVTY_CD_SETUP.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_ACTVTY_CD_SETUP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_ACTVTY_CD_SETUP.aspx.vb">
+      <DependentUpon>PRG_FIN_ACTVTY_CD_SETUP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_BANK_SETUP.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_BANK_SETUP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_BANK_SETUP.aspx.vb">
+      <DependentUpon>PRG_FIN_BANK_SETUP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_COMP_CODE.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_COMP_CODE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_COMP_CODE.aspx.vb">
+      <DependentUpon>PRG_FIN_COMP_CODE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_CREDITORS_ENTRY.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_CREDITORS_ENTRY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_CREDITORS_ENTRY.aspx.vb">
+      <DependentUpon>PRG_FIN_CREDITORS_ENTRY.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_RECEPT_PRINT.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_RECEPT_PRINT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_RECEPT_PRINT.aspx.vb">
+      <DependentUpon>PRG_FIN_RECEPT_PRINT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_RECPT_ISSUE.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_RECPT_ISSUE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_RECPT_ISSUE.aspx.vb">
+      <DependentUpon>PRG_FIN_RECPT_ISSUE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_RECVBLE_ENTRY.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_RECVBLE_ENTRY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_RECVBLE_ENTRY.aspx.vb">
+      <DependentUpon>PRG_FIN_RECVBLE_ENTRY.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_RECV_RECPT_PRINT.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_RECV_RECPT_PRINT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_RECV_RECPT_PRINT.aspx.vb">
+      <DependentUpon>PRG_FIN_RECV_RECPT_PRINT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_FIN_TRANS_CODE.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_TRANS_CODE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_TRANS_CODE.aspx.vb">
+      <DependentUpon>PRG_FIN_TRANS_CODE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_AGCY_BUDGET.aspx.designer.vb">
+      <DependentUpon>PRG_LI_AGCY_BUDGET.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_AGCY_BUDGET.aspx.vb">
+      <DependentUpon>PRG_LI_AGCY_BUDGET.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_AGCY_COMM.aspx.designer.vb">
+      <DependentUpon>PRG_LI_AGCY_COMM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_AGCY_COMM.aspx.vb">
+      <DependentUpon>PRG_LI_AGCY_COMM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_BONUS_INT_RT.aspx.designer.vb">
+      <DependentUpon>PRG_LI_BONUS_INT_RT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_BONUS_INT_RT.aspx.vb">
+      <DependentUpon>PRG_LI_BONUS_INT_RT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_BRK_COMM.aspx.designer.vb">
+      <DependentUpon>PRG_LI_BRK_COMM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_BRK_COMM.aspx.vb">
+      <DependentUpon>PRG_LI_BRK_COMM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_CODES.aspx.designer.vb">
+      <DependentUpon>PRG_LI_CODES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_CODES.aspx.vb">
+      <DependentUpon>PRG_LI_CODES.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_COV_MST.aspx.designer.vb">
+      <DependentUpon>PRG_LI_COV_MST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_COV_MST.aspx.vb">
+      <DependentUpon>PRG_LI_COV_MST.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_INT_RATE.aspx.designer.vb">
+      <DependentUpon>PRG_LI_INT_RATE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_INT_RATE.aspx.vb">
+      <DependentUpon>PRG_LI_INT_RATE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_LOAN _REQST.aspx.designer.vb">
+      <DependentUpon>PRG_LI_LOAN _REQST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_LOAN _REQST.aspx.vb">
+      <DependentUpon>PRG_LI_LOAN _REQST.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_LOAN_INT_RT.aspx.designer.vb">
+      <DependentUpon>PRG_LI_LOAN_INT_RT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_LOAN_INT_RT.aspx.vb">
+      <DependentUpon>PRG_LI_LOAN_INT_RT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_PLAN_MST.aspx.designer.vb">
+      <DependentUpon>PRG_LI_PLAN_MST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_PLAN_MST.aspx.vb">
+      <DependentUpon>PRG_LI_PLAN_MST.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_PRD_CAT.aspx.designer.vb">
+      <DependentUpon>PRG_LI_PRD_CAT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_PRD_CAT.aspx.vb">
+      <DependentUpon>PRG_LI_PRD_CAT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_PRD_DTL.aspx.designer.vb">
+      <DependentUpon>PRG_LI_PRD_DTL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_PRD_DTL.aspx.vb">
+      <DependentUpon>PRG_LI_PRD_DTL.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_REQ_ENTRY.aspx.designer.vb">
+      <DependentUpon>PRG_LI_REQ_ENTRY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_REQ_ENTRY.aspx.vb">
+      <DependentUpon>PRG_LI_REQ_ENTRY.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_TRTY_COMM.aspx.designer.vb">
+      <DependentUpon>PRG_LI_TRTY_COMM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_TRTY_COMM.aspx.vb">
+      <DependentUpon>PRG_LI_TRTY_COMM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_TRTY_PRPTN.aspx.designer.vb">
+      <DependentUpon>PRG_LI_TRTY_PRPTN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_TRTY_PRPTN.aspx.vb">
+      <DependentUpon>PRG_LI_TRTY_PRPTN.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_UNDW_CODE.aspx.designer.vb">
+      <DependentUpon>PRG_LI_UNDW_CODE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_UNDW_CODE.aspx.vb">
+      <DependentUpon>PRG_LI_UNDW_CODE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_UNDW_RATES.aspx.designer.vb">
+      <DependentUpon>PRG_LI_UNDW_RATES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_UNDW_RATES.aspx.vb">
+      <DependentUpon>PRG_LI_UNDW_RATES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PRG_LI_UNDW_RATE_TYPES.aspx.designer.vb">
+      <DependentUpon>PRG_LI_UNDW_RATE_TYPES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_LI_UNDW_RATE_TYPES.aspx.vb">
+      <DependentUpon>PRG_LI_UNDW_RATE_TYPES.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PRO_LI_MEDICAL_DTLS.aspx.designer.vb">
+      <DependentUpon>PRO_LI_MEDICAL_DTLS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRO_LI_MEDICAL_DTLS.aspx.vb">
+      <DependentUpon>PRO_LI_MEDICAL_DTLS.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReceiptOthersList.aspx.designer.vb">
+      <DependentUpon>ReceiptOthersList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptOthersList.aspx.vb">
+      <DependentUpon>ReceiptOthersList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReceiptPrint.aspx.designer.vb">
+      <DependentUpon>ReceiptPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptPrint.aspx.vb">
+      <DependentUpon>ReceiptPrint.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReceiptsList.aspx.designer.vb">
+      <DependentUpon>ReceiptsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptsList.aspx.vb">
+      <DependentUpon>ReceiptsList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RECREATE.aspx.designer.vb">
+      <DependentUpon>RECREATE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RECREATE.aspx.vb">
+      <DependentUpon>RECREATE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SiteGlobal.vb" />
+    <Compile Include="StartPage.aspx.designer.vb">
+      <DependentUpon>StartPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StartPage.aspx.vb">
+      <DependentUpon>StartPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="testTemplate.aspx.designer.vb">
+      <DependentUpon>testTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testTemplate.aspx.vb">
+      <DependentUpon>testTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UC_BAN.ascx.vb">
+      <DependentUpon>UC_BAN.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC_FOOT.ascx.vb">
+      <DependentUpon>UC_FOOT.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CrystalRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalRep.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LifeReceipt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LifeReceipt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccountChartBrowse.aspx" />
+    <Content Include="AppFrame.css" />
+    <Content Include="AppServer.css" />
+    <Content Include="bin\custAppDLL.zip" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="calendar.css" />
+    <Content Include="calendar_eu.js" />
+    <Content Include="ChartOfAccountsEntryBrowse.aspx" />
+    <Content Include="css\CSS files.zip" />
+    <Content Include="ddaccordion.js" />
+    <Content Include="EntryMenu.aspx" />
+    <Content Include="EntryMenu1.aspx" />
+    <Content Include="grid.css" />
+    <Content Include="img\acct_banner.jpg" />
+    <Content Include="img\CAILogoN.jpg" />
+    <Content Include="img\glass1.png" />
+    <Content Include="img\image files.zip" />
+    <Content Include="img\PlusImage.png" />
+    <Content Include="img\x.png" />
+    <Content Include="IndLifeCodes..aspx" />
+    <Content Include="jquery-1.11.0.js" />
+    <Content Include="jquery.lightbox_me.js" />
+    <Content Include="jquery.min.js" />
+    <Content Include="jquery.simplemodal.js" />
+    <Content Include="menu.css" />
+    <Content Include="NEW_TBL.aspx" />
+    <Content Include="PolicyBrowse.aspx" />
+    <Content Include="PRG_FIN_ACCOUNTS_CHART.aspx" />
+    <Content Include="PRG_FIN_ACTVTY_CD_SETUP.aspx" />
+    <Content Include="PRG_FIN_BANK_SETUP.aspx" />
+    <Content Include="PRG_FIN_COMP_CODE.aspx" />
+    <Content Include="PRG_FIN_CREDITORS_ENTRY.aspx" />
+    <Content Include="PRG_FIN_RECEPT_PRINT.aspx" />
+    <Content Include="PRG_FIN_RECPT_ISSUE.aspx" />
+    <Content Include="PRG_FIN_RECVBLE_ENTRY.aspx" />
+    <Content Include="PRG_FIN_RECV_RECPT_PRINT.aspx" />
+    <Content Include="PRG_FIN_TRANS_CODE.aspx" />
+    <Content Include="PRG_LI_AGCY_BUDGET.aspx" />
+    <Content Include="PRG_LI_BONUS_INT_RT.aspx" />
+    <Content Include="PRG_LI_BRK_COMM.aspx" />
+    <Content Include="PRG_LI_CODES.aspx" />
+    <Content Include="PRG_LI_INT_RATE.aspx" />
+    <Content Include="PRG_LI_LOAN _REQST.aspx" />
+    <Content Include="PRG_LI_PLAN_MST.aspx" />
+    <Content Include="PRG_LI_REQ_ENTRY.aspx" />
+    <Content Include="PRG_LI_TRTY_COMM.aspx" />
+    <Content Include="PRG_LI_TRTY_PRPTN.aspx" />
+    <Content Include="PRG_LI_UNDW_RATES.aspx" />
+    <Content Include="PRG_LI_UNDW_RATE_TYPES.aspx" />
+    <Content Include="PRO_LI_MEDICAL_DTLS.aspx" />
+    <Content Include="ReceiptOthersList.aspx" />
+    <Content Include="ReceiptPrint.aspx" />
+    <Content Include="ReceiptsList.aspx" />
+    <Content Include="Script\ScriptJS.js" />
+    <Content Include="Script\ScriptVB.vbs" />
+    <Content Include="SS_ILIFE.css" />
+    <Content Include="StartPage.aspx" />
+    <Content Include="testTemplate.aspx" />
+    <Content Include="UC_BAN.ascx" />
+    <Content Include="UC_FOOT.ascx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_Data\ReceiptDetails.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CustodianLife.Data\CustodianLife.Data\CustodianLife.Data.csproj">
+      <Project>{86F30336-CC08-48CC-8D7B-4C58EF63DB46}</Project>
+      <Name>CustodianLife.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CustodianLife.Model\CustodianLife.Model\CustodianLife.Model.csproj">
+      <Project>{618316BC-A692-4367-BF45-D563AA8346C4}</Project>
+      <Name>CustodianLife.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CustodianLife.Repositories\CustodianLife.Repositories\CustodianLife.Repositories.csproj">
+      <Project>{F6C8AAA7-FF5C-4F85-B416-2A30973B4B42}</Project>
+      <Name>CustodianLife.Repositories</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59251</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

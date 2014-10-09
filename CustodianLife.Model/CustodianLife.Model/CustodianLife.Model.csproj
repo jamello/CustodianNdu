@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{618316BC-A692-4367-BF45-D563AA8346C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustodianLife.Model</RootNamespace>
+    <AssemblyName>CustodianLife.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountsActivityCodes.cs" />
+    <Compile Include="AgencyProductionBudget.cs" />
+    <Compile Include="AgencyStandardComm.cs" />
+    <Compile Include="Agents.cs" />
+    <Compile Include="BankAccounts.cs" />
+    <Compile Include="BonusInterestRate.cs" />
+    <Compile Include="Brokers.cs" />
+    <Compile Include="BrokersCommRates.cs" />
+    <Compile Include="ChartOfAccounts.cs" />
+    <Compile Include="ClaimsRequest.cs" />
+    <Compile Include="CompanyCodes.cs" />
+    <Compile Include="GLTrans.cs" />
+    <Compile Include="GroupDRCRNote.cs" />
+    <Compile Include="InsuredDetails.cs" />
+    <Compile Include="InterestRates.cs" />
+    <Compile Include="Invoice.cs" />
+    <Compile Include="LifeCodes.cs" />
+    <Compile Include="LoanDisbursement.cs" />
+    <Compile Include="LoanInterest.cs" />
+    <Compile Include="IndLifeCodes.cs" />
+    <Compile Include="MedicalExams.cs" />
+    <Compile Include="PlanMaster.cs" />
+    <Compile Include="PolicyInfo.cs" />
+    <Compile Include="PolicyPremiumDetails.cs" />
+    <Compile Include="PolicyPremiumInfo.cs" />
+    <Compile Include="PremiumAllocation.cs" />
+    <Compile Include="PremiumRatesMaster.cs" />
+    <Compile Include="ProductCategories.cs" />
+    <Compile Include="ProductCoverDetails.cs" />
+    <Compile Include="ProductDetails.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RateTypeCodes.cs" />
+    <Compile Include="Receipts.cs" />
+    <Compile Include="ReInsuranceTreatyCommission.cs" />
+    <Compile Include="RolePermissions.cs" />
+    <Compile Include="SystemGeneratedNumber.cs" />
+    <Compile Include="TransactionTypes.cs" />
+    <Compile Include="TreatyProportion.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

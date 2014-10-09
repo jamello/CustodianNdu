@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="Agents" table="TBIL_AGENCY_CD">
+    <id name="acId" column="TBIL_AGENT_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="AgentId" column="TBIL_AGCY_AGENT_ID" length="3" />
+    <property name="SystemModule" column="TBIL_AGCY_CD_MDLE" length="3" />
+    <property name="AgentType" column="TBIL_AGCY_TYPE" length="5" />
+    <property name="AgentDescription" column="TBIL_AGCY_TYPE_DESC" length="50" />
+    <property name="RegionCode" column="TBIL_AGCY_REG_CODE" length="10" />
+    <property name="RegionName" column="TBIL_AGCY_REG_NAME" length="50" />
+    <property name="AgentCode" column="TBIL_AGCY_AGCY_CODE" length="10" />
+    <property name="AgentName" column="TBIL_AGCY_AGCY_NAME" length="50" />
+    <property name="UnitCode" column="TBIL_AGCY_UNIT_CODE" length="10" />
+    <property name="UnitName" column="TBIL_AGCY_UNIT_NAME" length="50" />
+    <property name="AgentCode1" column="TBIL_AGCY_AGENT_CODE" length="10" />
+    <property name="AgentName1" column="TBIL_AGCY_AGENT_NAME" length="50" />
+    <property name="AddressLine1" column="TBIL_AGCY_ADRES1" length="100" />
+    <property name="AddressLine2" column="TBIL_AGCY_ADRES2" length="100" />
+    <property name="PhoneNo1" column="TBIL_AGCY_PHONE1" length="25" />
+    <property name="PhoneNo2" column="TBIL_AGCY_PHONE2" length="25" />
+    <property name="EmailAddress1" column="TBIL_AGCY_EMAIL1" length="50" />
+    <property name="EmailAddress2" column="TBIL_AGCY_EMAIL2" length="50" />
+    <property name="AgencyLevel" column="TBIL_AGCY_AGENT_LEVEL " length="5" />
+    <property name="AgencyTag" column="TBIL_AGENT_TAG " length="10" />
+    <property name="AgencyFlag" column="TBIL_AGENT_FLAG " length="1" />
+    <property name="AgencyOperId" column="TBIL_AGENT_OPERID " length="10" />
+    <property name="EntryDate" column="TBIL_AGENT_KEYDTE " type="datetime" />
+  </class>
+</hibernate-mapping>
+

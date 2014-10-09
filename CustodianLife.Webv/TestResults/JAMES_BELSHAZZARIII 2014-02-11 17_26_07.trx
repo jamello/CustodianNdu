@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0b59635c-fde9-4b67-b700-73185d669fb8" name="JAMES@BELSHAZZARIII 2014-02-11 17:26:07" runUser="BELSHAZZARIII\JAMES" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b2ae501a-5dd2-4d1d-a575-276f80b45f7e">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestResults\JAMES_BELSHAZZARIII 2014-02-11 17_26_07">
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\bin\Debug\Castle.Core.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Repositories\CustodianLife.Repositories\bin\Debug\CustodianLife.Repositories.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\bin\Debug\C5.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\bin\Debug\CustodianLife.Data.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\bin\Debug\NHibernate.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Model\CustodianLife.Model\bin\Debug\CustodianLife.Model.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\bin\Debug\Common.Logging.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\bin\Debug\Castle.DynamicProxy2.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\bin\Debug\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\bin\Debug\log4net.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2014-02-11T17:26:07.7027381+01:00" queuing="2014-02-11T17:26:07.9499920+01:00" start="2014-02-11T17:26:08.0520602+01:00" finish="2014-02-11T17:26:08.4653384+01:00" />
+  <TestDefinitions>
+    <UnitTest name="GetNextSerialNumberTest" storage="c:\production\web apps\custodianlife\custodianlife.webv\testcustodianlife\bin\debug\testcustodianlife.dll" id="af8a5676-9a18-cd06-b975-0d9df53e70ae">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="435c036a-efb2-438a-8053-41b918b2d90f" />
+      <TestMethod codeBase="C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\TestCustodianLife.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestCustodianLife.ReceiptsRepositoryTest, TestCustodianLife" name="GetNextSerialNumberTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="af8a5676-9a18-cd06-b975-0d9df53e70ae" executionId="435c036a-efb2-438a-8053-41b918b2d90f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="435c036a-efb2-438a-8053-41b918b2d90f" testId="af8a5676-9a18-cd06-b975-0d9df53e70ae" testName="GetNextSerialNumberTest" computerName="BELSHAZZARIII" duration="00:00:00.1161923" startTime="2014-02-11T17:26:08.0850823+01:00" endTime="2014-02-11T17:26:08.4333170+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestCustodianLife.ReceiptsRepositoryTest.GetNextSerialNumberTest threw exception:  NHibernate.MappingException: Could not compile the mapping document: CustodianLife.Data.BankAccounts.hbm.xml ---&gt;  System.InvalidOperationException: Could not find the dialect in the configuration.</Message>
+          <StackTrace>    at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props)
+   at NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+ --- End of inner exception stack trace ---
+    at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   at NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   at NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   at NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   at NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   at NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   at NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   at CustodianLife.Data.SessionProvider.get_Config() in C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\SessionProvider.cs:line 35
+   at CustodianLife.Data.SessionProvider.CreateSessionFactory() in C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\SessionProvider.cs:line 43
+   at CustodianLife.Data.SessionProvider.get_SessionFactory() in C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\SessionProvider.cs:line 23
+   at CustodianLife.Data.ReceiptsRepository.GetSession() in C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\ReceiptsRepository.cs:line 19
+   at CustodianLife.Data.ReceiptsRepository.GetNextSerialNumber(String sys_id, String sys_type, String sys_branch, String sys_year, String sys_prefix, String sys_out_int, String sys_out_char) in C:\production\WEB APPS\CustodianLife\CustodianLife.Data\CustodianLife.Data\ReceiptsRepository.cs:line 95
+   at TestCustodianLife.ReceiptsRepositoryTest.GetNextSerialNumberTest() in C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\ReceiptsRepositoryTest.vb:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

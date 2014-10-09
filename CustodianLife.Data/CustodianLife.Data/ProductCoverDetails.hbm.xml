@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="ProductCoverDetails" table="TBIL_COVER_DET">
+    <id name="pcId" column="TBIL_COVER_ID" >
+      <generator class="identity"/>
+    </id>
+    <property name="ProductCoverModule" column="TBIL_COV_MDLE_CD" length="3" />
+    <property name="ProductCode" column="TBIL_COV_PRDCT_CD" length="3" />
+    <property name="ProductCoverCode" column="TBIL_COV_CD" length="3" />
+    <property name="ProductCoverType" column="TBIL_COV_TYPE" length="3" />
+    <property name="ProductCoverDesc" column="TBIL_COV_DESC" length="300" />
+    <property name="ProductCoverOnBasicRate" column="TBIL_COV_ON_BASIC_RATE" length="1" />
+    <property name="ProductCoverRateOn" column="TBIL_COV_RATE_ON" length="2" />
+    <property name="ProductCoverSAPercent" column="TBIL_COV_SA_PCENT" type="decimal" />
+    <property name="ProductCoverMinimumSA" column="TBIL_COV_MIN_SA" type="decimal"/>
+    <property name="ProductCoverMaximumSA" column="TBIL_COV_MAX_SA" type="decimal"/>
+    <property name="ProductCoverFundType" column="TBIL_COV_FUND_TYPE" length="1" />
+    <!--
+    <many-to-one name="ProductDetails" class="CustodianLife.Model.ProductDetails, CustodianLife.Model" column="TBIL_COVER_ID" unique="true"  />
+    -->
+  </class>
+</hibernate-mapping>

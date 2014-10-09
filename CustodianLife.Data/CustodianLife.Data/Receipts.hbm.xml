@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="Receipts" table="TBFN_RECPT_FILE">
+    <id name="rtId" column="TBFN_RECPT_FILE_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="CompanyCode" column="TBFN_ACCT_TRANS_COMP" length="3" />
+    <property name="BatchNo" column="TBFN_ACCT_BATCH_NO" type="integer" />
+    <property name="SerialNo" column="TBFN_ACCT_SER_NO" type="long" />
+    <property name="TransType" column="TBFN_ACCT_TRANS_TYP" length="1"  />
+    <property name="TempTransNo" column="TBFN_ACCT_TEMP_TRANS_NO" length="40"  />
+    <property name="TransDate" column="TBFN_ACCT_DOC_DATE" type="datetime" />
+    <property name="EntryDate" column="TBFN_ACCT_ENTRY_DATE" type="datetime" />
+    <property name="TransMode" column="TBFN_ACCT_TRANS_MODE"  length="1" />
+    <property name="ReceiptType" column="TBFN_ACCT_RECP_TYP"  length="1" />
+    <property name="ReferenceNo" column="TBFN_ACCT_REF_NO"  length="40" />
+    <property name="ProductCode" column="TBFN_ACCT_PRDCT_CD"  length="15" />
+    <property name="DocNo" column="TBFN_ACCT_DOC_NO"  length="15" />
+    <property name="CurrencyType" column="TBFN_ACCT_CURRCY_TYPE"  length="5" />
+    <property name="ChequeTellerNo" column="TBFN_ACCT_CHQ_TELLER_NO"  length="15" />
+    <property name="ChequeInwardNo" column="TBFN_ACCT_CHQ_INWARD_NO"  length="15" />
+    <property name="ChequeDate" column="TBFN_ACCT_CHQ_INWARD_DATE" type="datetime" />
+    <property name="PayeeName" column="TBFN_ACCT_PAYER_PAYEE_NAME"  length="50" />
+    <property name="TranDescription1" column="TBFN_ACCT_TRANS_DESC1"  length="100" />
+    <property name="TranDescription2" column="TBFN_ACCT_TRANS_DESC2"  length="50" />
+    <property name="BranchCode" column="TBFN_ACCT_BRANCH_CD"  length="5" />
+    <property name="BankCode" column="TBFN_ACCT_BANK_CD"  length="15" />
+    <property name="AmountLC" column="TBFN_ACCT_AMT_LC" type="decimal" />
+    <property name="AmountFC" column="TBFN_ACCT_AMT_FC" type="decimal" />
+    <property name="InsuredCode" column="TBFN_ACCT_INS_CODE"  length="15" />
+    <property name="AgentCode" column="TBFN_ACCT_AGENT_CODE"  length="15" />
+    <property name="CommissionApplicable" column="TBFN_ACCT_COMM_YN"  length="1" />
+    <property name="PolicyRegularContribution" column="TBFN_ACCT_POLY_CONTRIB" type="decimal" />
+    <property name="PolicyPaymentMode" column="TBFN_ACCT_POLY_MOP"  length="1" />
+    <property name="MainAccountDebit" column="TBFN_ACCT_DR_MAIN"  length="15" />
+    <property name="SubAccountDebit" column="TBFN_ACCT_DR_SUB"  length="10" />
+    <property name="MainAccountCredit" column="TBFN_ACCT_CR_MAIN"  length="15" />
+    <property name="SubAccountCredit" column="TBFN_ACCT_CR_SUB"  length="10" />
+    <property name="LedgerTypeCredit" column="TBFN_ACCT_LEDG_TYP_CR"  length="3" />
+  </class>
+</hibernate-mapping>

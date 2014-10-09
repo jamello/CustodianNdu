@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="ClaimsRequest" table="TBIL_CLAIM_REPTED">
+    <id name="crId" column="TBIL_CLAIM_REPTED_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="SystemModule" column="TBIL_CLM_RPTD_MDLE" length="3" />
+    <property name="PolicyNo" column="TBIL_CLM_RPTD_POLY_NO" length="35" />
+    <property name="ClaimsNo" column="TBIL_CLM_RPTD_CLM_NO" length="35" />
+    <property name="UnderwritingYear" column="TBIL_CLM_RPTD_UNDW_YR" type="integer" />
+    <property name="ProductCode" column="TBIL_CLM_RPTD_PRDCT_CD" length="3" />
+    <property name="ClaimType" column="TBIL_CLM_RPTD_CLM_TYPE" length="1"/>
+    <property name="PolicyStartDate" column="TBIL_CLM_RPTD_POLY_FROM_DT" type="datetime" />
+    <property name="PolicyEndDate" column="TBIL_CLM_RPTD_POLY_TO_DT" type="datetime" />
+    <property name="NotificationDate" column="TBIL_CLM_RPTD_NOTIF_DT" type="datetime" />
+    <property name="EffectiveDate" column="TBIL_CLM_RPTD_LOSS_DT" type="datetime" />
+    <property name="BasicSumClaimedLC" column="TBIL_CLM_RPTD_BASIC_LOSS_AMT_LC" type="decimal" />
+    <property name="BasicSumClaimedFC" column="TBIL_CLM_RPTD_BASIC_LOSS_AMT_FC" type="decimal" />
+    <property name="AdditionalSumClaimedLC" column="TBIL_CLM_RPTD_ADDCOV_LOSS_AMT_LC" type="decimal" />
+    <property name="AdditionalSumClaimedFC" column="TBIL_CLM_RPTD_ADDCOV_LOSS_AMT_FC" type="decimal" />
+    <property name="ClaimsDescription" column="TBIL_CLM_RPTD_DESC" length="350" />
+    <property name="AssuredAge" column="TBIL_CLM_RPTD_ASSRD_AGE" type="integer" />
+    <property name="LossType" column="TBIL_CLM_RPTD_LOSS_TYPE" length="1"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="PremiumRatesMaster" table="PRG_LI_UNDW_RATES">
+    <id name="pmId" column="PRG_LI_UNDW_RATES_REC_ID" >
+      <generator class="identity"/>
+    </id>
+    <property name="ModuleSource" column="TBIL_PREM_RT_MDLE" length="1" />
+    <property name="ProductCode" column="TBIL_PREM_RT_PRDCT_CD" length="3" />
+    <property name="RateTypeCode" column="TBIL_PREM_RT_CODE" length="3" />
+    <property name="StartPolicyTerm" column="TBIL_PREM_RT_PRD_FROM" type="integer" />
+    <property name="EndPolicyTerm" column="TBIL_PREM_RT_PRD_TO" type="integer" />
+    <property name="StartAge" column="TBIL_PREM_RT_AGE_FROM" type="integer" />
+    <property name="EndAge" column="TBIL_PREM_RT_AGE_TO" type="integer" />
+    <property name="PremiumRate" column="TBIL_PREM_RT_RATE" type="decimal" />
+
+  </class>
+</hibernate-mapping>

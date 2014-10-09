@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using CustodianLife.Model;
+using CustodianLife.Repositories;
+using NHibernate;
+namespace CustodianLife.Data
+{
+    public class TreatyProportionRepository
+    {
+        private static ISession GetSession()
+        {
+            return SessionProvider.SessionFactory.OpenSession();
+        }
+
+        public void Save(TreatyProportion saveObj)
+        {
+            using (var session = GetSession())
+            {
+                using (var trans = session.BeginTransaction())
+                {
+                    session.FlushMode = FlushMode.Commit;
+                    session.SaveOrUpdate(saveObj);
+                    trans.Commit();
+                    session.Flush();
+                    //}
+                }
+            }
+        }
+        public void Delete(TreatyProportion delObj)
+        {
+            using (var session = GetSession())
+            {
+                using (var trans = session.BeginTransaction())
+                {
+                    session.Delete(delObj);
+                    trans.Commit();
+                }
+            }
+        }
+        public IList<TreatyProportion> TreatyProportionDetails()
+        {
+            using (var session = GetSession())
+            {
+                var pDet = session.CreateCriteria<TreatyProportion>()
+
+                                     .List<TreatyProportion>();
+
+                return pDet;
+            }
+        }
+        public TreatyProportion GetById(Int32? id)
+        {
+            using (var session = GetSession())
+            {
+                return session.Get<TreatyProportion>(id);
+            }
+        }
+        public TreatyProportion GetById(String _key)
+        {
+            //the _key is an array of string values (2). Split into individual values and fill the parameters
+            Char[] seperator = new char[] { ',' };
+            string[] keys = _key.Split(seperator, StringSplitOptions.RemoveEmptyEntries);
+
+            string hqlOptions = "from TreatyProportion i where i.tpId = " + keys[0]
+                              + " and i.SystemModule = '" + keys[1] + "'";
+
+            using (var session = GetSession())
+            {
+
+                return (TreatyProportion)session.CreateQuery(hqlOptions).UniqueResult();
+            }
+        }
+
+    }
+}

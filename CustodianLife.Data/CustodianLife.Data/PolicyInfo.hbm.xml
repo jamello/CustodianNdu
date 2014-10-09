@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="PolicyInfo" table="TBIL_POLICY_DET_COMBINE">
+    <id name="polId" column="TBIL_POLY_REC_ID">
+      <generator class="identity"/>
+    </id>
+    <property name="ProposalFileNumber" column="TBIL_POLY_FILE_NO" length="40" />
+    <property name="SystemModule" column="TBIL_POLY_MDLE" length="3" />
+    <property name="ProposalNumber" column="TBIL_POLY_PROPSAL_NO" length="40" />
+    <property name="PolicyNumber" column="TBIL_POLY_POLICY_NO" length="40" />
+    <property name="PolicyProductCode" column="TBIL_POLY_PRDCT_CD" length="10" />
+    <property name="ProductPlanCode" column="TBIL_POLY_PLAN_CD" length="10" />
+    <property name="ProductCoverCode" column="TBIL_POLY_COVER_CD" length="10" />
+    <property name="UnderwritingYear" column="TBIL_POLY_UNDW_YR" length="4"/>
+    <property name="BranchCode" column="TBIL_POLY_BRANCH_CD" length="5"/>
+    <property name="DeptCode" column="TBIL_POLY_DEPT_CD" length="5"/>
+    <property name="ProposalReceivedDate" column="TBIL_POLY_PRPSAL_RECD_DT" type="datetime" />
+    <property name="DateProposalAccepted" column="TBIL_POLY_PROPSL_ACCPT_DT" type="datetime" />
+    <property name="ProposalStatus" column="TBIL_POLY_PROPSL_ACCPT_STATUS" length="1" />
+    <property name="PolicyIssueDate" column="TBIL_POLICY_ISSUE_DT" type="datetime" />
+    <property name="PolicyEffectiveDate" column="TBIL_POLICY_EFF_DT" type="datetime" />
+    <property name="BrokerAgentCode" column="TBIL_POLY_CUST_CODE" length="10" />
+    <property name="BusinessSource" column="TBIL_POLY_SOURC_BIZ" length="5" />
+    <property name="AgencyCode" column="TBIL_POLY_AGCY_CODE" length="10" />
+    <property name="AssuredCode" column="TBIL_POLY_ASSRD_CD" length="10" />
+    <property name="AssuredDateOfBirth" column="TBIL_POLY_ASSRD_BDATE" type="datetime" />
+    <property name="AssuredHeight" column="TBIL_POLY_ASSRD_HEIGHT" length="3" />
+    <property name="AssuredWeight" column="TBIL_POLY_ASSRD_WEIGHT" length="3" />
+    <property name="AssuredHeightType" column="TBIL_POLY_ASSRD_HEIGHT_TYP" length="2" />
+    <property name="AssuredWeightType" column="TBIL_POLY_ASSRD_WEIGHT_TYP" length="2" />
+    <property name="AssuredAgeProofDoc" column="TBIL_POLY_AGE_PROOF" length="10" />
+    <property name="AgeCalculated" column="TBIL_POLY_ASSRD_AGE" length="4" />
+    <property name="Nationality" column="TBIL_POLY_ASSRD_NATIONLTY" length="5" />
+    <property name="Gender" column="TBIL_POLY_GENDER" length="5" />
+    <property name="MaritalStatus" column="TBIL_POLY_MARITAL" length="3" />
+    <property name="Occupation" column="TBIL_POLY_OCCUPATN" length="5" />
+    <property name="OccupationClass" column="TBIL_POLY_OCCUTN_CLASS" length="5" />
+    <property name="Religion" column="TBIL_POLY_RELIGN_CD" length="5" />
+    <property name="Relation" column="TBIL_POLY_ASSRD_RELATN" length="5" />
+    <property name="PlaceOfBirth" column="TBIL_POLY_ASSRD_PLACE_BIRTH" length="25" />
+    <property name="PolicyStatus" column="TBIL_POLY_STATUS" length="2" />
+    <property name="StatusDate" column="TBIL_POLY_STATUS_DATE" type="datetime" />
+    <property name="WaiverEffectiveDate" column="TBIL_POLY_WAIVER_DT" type="datetime" />
+    <property name="PaidUpEffectiveDate" column="TBIL_POLY_PAIDUP_DT" type="datetime" />
+    <property name="CancellationEffectiveDate" column="TBIL_POLY_CANCEL_DT" type="datetime" />
+    <property name="LapseEffectiveDate" column="TBIL_POLY_LAPSE_DT" type="datetime" />
+    <property name="ReactivationEffectiveDate" column="TBIL_POLY_REACTIVATE_DT" type="datetime" />
+    <property name="Tag" column="TBIL_POLY_TAG" length="10" />
+    <property name="Flag" column="TBIL_POLY_FLAG" length="1" />
+    <property name="OperId" column="TBIL_POLY_OPERID" length="10" />
+    <property name="EntryDate" column="TBIL_POLY_KEYDTE" type="datetime" />
+
+  </class>
+</hibernate-mapping>

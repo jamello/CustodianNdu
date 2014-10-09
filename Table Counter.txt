@@ -1,0 +1,170 @@
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+
+CREATE TABLE [TBIL_UNDW_SYS_GEN_NUMB] (
+	[TBIL_SYS_GEN_ID] [char] (5) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[TBIL_SYS_GEN_TRN_TYP] [char] (5) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[TBIL_SYS_GEN_BRNCH] [char] (5) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[TBIL_SYS_GEN_YR] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[TBIL_SYS_GEN_NO] [numeric](8, 0) NULL ,
+	[TBIL_SYS_GEN_PFIX] [char] (5) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[TBIL_SYS_GEN_FLAG] [char] (1) COLLATE SQL_Latin1_General_CP1_CI_AS NULL CONSTRAINT [DF_TBIL_SYS_GEN_FLAG] DEFAULT ('A'),
+	[TBIL_SYS_GEN_OPERID] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL CONSTRAINT [DF_TBIL_SYS_GEN_OPERID] DEFAULT ('SYS'),
+	[TBIL_SYS_GEN_KEYDTE] [datetime] NULL CONSTRAINT [DF_TBIL_SYS_GEN_KEYDTE] DEFAULT (getdate()),
+	CONSTRAINT [PK_TBIL_UNDW_SYS_GEN_NUMB] PRIMARY KEY  CLUSTERED 
+	(
+		[TBIL_SYS_GEN_ID],
+		[TBIL_SYS_GEN_TRN_TYP],
+		[TBIL_SYS_GEN_BRNCH],
+		[TBIL_SYS_GEN_YR]
+	)  ON [PRIMARY] 
+) ON [PRIMARY]
+GO
+
+
+
+
+
+-- SELECT * FROM TBIL_UNDW_SYS_GEN_NUMB
+ALTER   PROCEDURE SPIL_GET_UNDW_SN
+	(@PARAM_SYS_ID		char(5) = 'L02'
+	,@PARAM_SYS_TYPE	char(5) = '001'
+	,@PARAM_SYS_BRANCH	char(5) = 'XXXX'
+	,@PARAM_SYS_YEAR	char(10) = 'XXXX'
+	,@PARAM_SYS_PREFIX	char(5) = ''
+	,@PARAM_OUT_INT		char(20) output
+	,@PARAM_OUT_CHAR	char(20) output
+	)
+as
+
+declare @next_num	numeric(8)
+declare @next_no	char(10)
+declare @next_numX	char(10)
+declare @field_len	numeric(5)
+declare @DN_num		numeric(8)
+declare @CN_num		numeric(8)
+declare @foundYN	char(1)
+
+declare @keydte		datetime
+set @keydte = getdate()
+
+declare @my_prefix	char(5)
+set @my_prefix = ltrim(rtrim(@PARAM_SYS_PREFIX))
+
+set @next_num = 0
+
+if exists(select top 1 TBIL_SYS_GEN_ID from TBIL_UNDW_SYS_GEN_NUMB
+     where TBIL_SYS_GEN_ID = @PARAM_SYS_ID
+       and TBIL_SYS_GEN_TRN_TYP = @PARAM_SYS_TYPE
+       and TBIL_SYS_GEN_BRNCH = @PARAM_SYS_BRANCH
+       and TBIL_SYS_GEN_YR = @PARAM_SYS_YEAR)
+  begin
+    select top 1 @next_num = TBIL_SYS_GEN_NO from TBIL_UNDW_SYS_GEN_NUMB
+     where TBIL_SYS_GEN_ID = @PARAM_SYS_ID
+       and TBIL_SYS_GEN_TRN_TYP = @PARAM_SYS_TYPE
+       and TBIL_SYS_GEN_BRNCH = @PARAM_SYS_BRANCH
+       and TBIL_SYS_GEN_YR = @PARAM_SYS_YEAR
+  end
+else
+  begin
+    set @next_num = 0
+    insert into TBIL_UNDW_SYS_GEN_NUMB(TBIL_SYS_GEN_ID
+	,TBIL_SYS_GEN_TRN_TYP
+	,TBIL_SYS_GEN_BRNCH
+	,TBIL_SYS_GEN_YR
+	,TBIL_SYS_GEN_NO
+	,TBIL_SYS_GEN_FLAG
+	,TBIL_SYS_GEN_OPERID
+	,TBIL_SYS_GEN_KEYDTE)
+    values(@PARAM_SYS_ID
+	, @PARAM_SYS_TYPE
+	, @PARAM_SYS_BRANCH
+	, @PARAM_SYS_YEAR
+	, @next_num
+	, 'A', 'SYS', @keydte)
+  end
+
+set @next_num = isnull(@next_num,0)
+
+
+START_RTN_LOOP:
+
+set @next_num = isnull(@next_num,0)
+set @next_num = @next_num + 1
+
+if exists(select top 1 TBIL_SYS_GEN_ID from TBIL_UNDW_SYS_GEN_NUMB
+     where TBIL_SYS_GEN_ID = @PARAM_SYS_ID
+       and TBIL_SYS_GEN_TRN_TYP = @PARAM_SYS_TYPE
+       and TBIL_SYS_GEN_BRNCH = @PARAM_SYS_BRANCH
+       and TBIL_SYS_GEN_YR = @PARAM_SYS_YEAR)
+  begin
+  update TBIL_UNDW_SYS_GEN_NUMB
+     set TBIL_SYS_GEN_NO = @next_num
+     where TBIL_SYS_GEN_ID = @PARAM_SYS_ID
+       and TBIL_SYS_GEN_TRN_TYP = @PARAM_SYS_TYPE
+       and TBIL_SYS_GEN_BRNCH = @PARAM_SYS_BRANCH
+       and TBIL_SYS_GEN_YR = @PARAM_SYS_YEAR
+  end
+else
+  begin
+    insert into TBIL_UNDW_SYS_GEN_NUMB(TBIL_SYS_GEN_ID
+	,TBIL_SYS_GEN_TRN_TYP
+	,TBIL_SYS_GEN_BRNCH
+	,TBIL_SYS_GEN_YR
+	,TBIL_SYS_GEN_NO
+	,TBIL_SYS_GEN_FLAG
+	,TBIL_SYS_GEN_OPERID
+	,TBIL_SYS_GEN_KEYDTE)
+    values(@PARAM_SYS_ID
+	, @PARAM_SYS_TYPE
+	, @PARAM_SYS_BRANCH
+	, @PARAM_SYS_YEAR
+	, @next_num
+	, 'A', 'SYS', @keydte)
+  end
+
+set @next_numX = ''
+set @next_no = convert(char(4),@next_num)
+set @field_len = 4 - len(@next_num) 
+if @field_len <= 0
+   begin
+     set @next_numX = ''
+   end
+else
+   begin
+     set @next_numX = REPLICATE(0, @field_len) 
+end
+
+     set @next_numX = ltrim(rtrim(@my_prefix)) +  ltrim(rtrim(@next_numX)) + ltrim(rtrim(@next_no)) 
+
+set @foundYN = 0
+--if @param_rec_id in('001')
+--begin
+  if exists(select top 1 TBIL_COD_ITEM from dbo.TBIL_LIFE_CODES
+     where TBIL_COD_TAB_ID = @PARAM_SYS_ID
+     and TBIL_COD_TYP = @PARAM_SYS_TYPE
+     and TBIL_COD_ITEM = @next_numX)
+  begin
+    set @foundYN = 1
+    goto START_RTN_LOOP
+  end
+--end
+
+
+END_RTN_LOOP:
+   set @param_out_int = convert(char(20), @next_num)
+   set @param_out_char = convert(char(20), @next_numX)
+
+END_RTN:
+
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+

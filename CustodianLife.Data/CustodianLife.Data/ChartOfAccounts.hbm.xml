@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="ChartOfAccounts" table="TBFN_ACCT_CODES">
+    <id name="caId" column="TBFN_ACCT_CODES_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="CompanyCode" column="TBFN_ACCT_COMP_CD" length="3" />
+    <property name="MainAcctsCode" column="TBFN_ACCT_MAIN_CD" length="15" />
+    <property name="SubAcctsCode" column="TBFN_ACCT_SUB_CD" length="10" />
+    <property name="FullDescription" column="TBFN_ACCT_MAIN_DESC" length="150" />
+    <property name="ShortDescription" column="TBFN_ACCT_SUB_DESC" length="150" />
+    <property name="AccountLevel" column="TBFN_ACCT_LEVEL" length="3" />
+    <property name="AccountMainGroup" column="TBFN_ACCT_MAIN_GRP" length="3" />
+    <property name="AccountLedgerCode" column="TBFN_ACCT_LEDG_CODE" length="3" />
+    <property name="AccountLedgerType" column="TBFN_ACCT_LEDG_TYPE" length="3" />
+    <property name="AccountSub1Group" column="TBFN_ACCT_SUB1_GRP" length="3" />
+    <property name="AccountSub2Group" column="TBFN_ACCT_SUB2_GRP" length="3" />
+    <property name="ProductCode" column="TBFN_ACCT_PRDCT_CD" length="25" />
+    <property name="BusinessType" column="TBFN_ACCT_BUS_TYPE" length="3" />
+    <property name="AccountPolicyType" column="TBFN_ACCT_POL_TYPE" length="15" />
+    <property name="AccountStatus" column="TBFN_ACCT_STATUS" length="3" />
+    <property name="AccountMode" column="TBFN_ACCT_MODE" length="3" />
+    <property name="EntryFlag" column="TBFN_ACCT_FLAG" length="3" />
+    <property name="EntryDate" column="TBFN_ACCT_KEYDTE" type="datetime" />
+    <property name="OperatorId" column="TBFN_ACCT_OPERID" length="3" />
+  </class>
+</hibernate-mapping>

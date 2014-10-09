@@ -1,0 +1,64 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.chart_divs
+{
+	width:520px;
+	height:400px;
+	margin-bottom: 2px; 
+	
+	}
+	
+
+#bar1, #bar2,#bar3
+{
+	width: 970px;
+	
+	
+	}
+.bars, #chart_div, #chart3_div 
+{
+	float:left;
+	}
+#chart1_div,#chart2_div, #chart4_div, #chart5_div 
+{
+	float:right;
+	}
+	
+#box-table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 45px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#box-table th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding-left: 50px;
+	padding-right: 50px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#box-table td
+{
+	padding-left: 50px;
+	padding-right: 50px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#box-table tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+

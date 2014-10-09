@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="BrokersCommRates" table="TBIL_BRK_COMM_RATE">
+    <id name="bcId" column="TBIL_BRK_COMM_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="ProductCode" column="TBIL_BRK_COMM_PRD_CD" length="3" />
+    <property name="StartYear" column="TBIL_BRK_YY_FROM" type="integer"/>
+    <property name="EndYear" column="TBIL_BRK_YY_TO" type="integer" />
+    <property name="StartPolicyTerm" column="TBIL_BRK_TERM_FROM" type="integer" />
+    <property name="EndPolicyTerm" column="TBIL_BRK_TERM_TO" type="integer" />
+    <property name="CommissionRate" column="TBIL_BRK_COMM_RATE" type="decimal" />
+   
+  </class>
+</hibernate-mapping>

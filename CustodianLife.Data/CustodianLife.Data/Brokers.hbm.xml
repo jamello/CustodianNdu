@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="Brokers" table="TBIL_CUST_DETAIL">
+    <id name="abId" column="TBIL_CUST_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="Category" column="TBIL_CUST_CATG" length="3" />
+    <property name="BrokerCode" column="TBIL_CUST_CODE" length="3" />
+    <property name="LongDescription" column="TBIL_CUST_DESC" length="100" />
+    <property name="ShortDescription" column="TBIL_CUST_SHRT_DESC" length="50" />
+    <property name="AddressLine1" column="TBIL_CUST_ADRES1" length="100" />
+    <property name="AddressLine2" column="TBIL_CUST_ADRES2" length="100" />
+    <property name="PhoneNo1" column="TBIL_CUST_PHONE1" length="25" />
+    <property name="PhoneNo2" column="TBIL_CUST_PHONE2" length="25" />
+    <property name="EmailAddress1" column="TBIL_CUST_EMAIL1" length="35" />
+    <property name="EmailAddress2" column="TBIL_CUST_EMAIL2" length="35" />
+    <property name="Staff" column="TBIL_CUST_STAFF" length="3" />
+    <property name="OccupationCode" column="TBIL_CUST_OCCUP_CODE" length="3" />
+    <property name="SourceBuz" column="TBIL_CUST_SOURCE_BIZ " length="3" />
+    <property name="Branch" column="TBIL_CUST_BRANCH" length="3" />
+    <property name="LedgerType" column="TBIL_CUST_LEDGER_TYPE" length="3" />
+
+  </class>
+</hibernate-mapping>

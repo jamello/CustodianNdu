@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="LoanDisbursement" table="TBIL_LOAN_DISBURSE">
+    <id name="ldId" column="TBIL_LOAN_DISBURSE_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="ProductCode" column="TBIL_LOAN_PRDCT_CD" length="3" />
+    <property name="LoanCode" column="TBIL_LOAN_DISB_CODE" length="3" />
+    <property name="PolicyNumber" column="TBIL_LOAN_DISB_POLY_NO" length="25"/>
+    <property name="RequestDate" column="TBIL_LOAN_DISB_DATE" type="datetime" />
+    <property name="ReferenceNo" column="TBIL_LOAN_DISB_REF_NO" length="15" />
+    <property name="LoanMaxAmountLocal" column="TBIL_LOAN_DISB_MAX_AMT_LC" type="decimal" />
+    <property name="LoanMaxAmountForeign" column="TBIL_LOAN_DISB_MAX_AMT_FC" type="decimal" />
+    <property name="LoanAmtGrantedLC" column="TBIL_LOAN_DISB_LOAN_AMT_LC" type="decimal" />
+    <property name="LoanAmtGrantedFC" column="TBIL_LOAN_DISB_LOAN_AMT_FC" type="decimal" />
+    <property name="LoanRepayFrequency" column="TBIL_LOAN_DISB_REPAY_FREQC" length="1" />
+    <property name="NumberOfInstallment" column="TBIL_LOAN_DISB_NO_INSTAL" type="integer" />
+    <property name="RepaymentStartDate" column="TBIL_LOAN_DISB_DUE_DATE" type="datetime" />
+    <property name="RepaymentAmountLC" column="TBIL_LOAN_DISB_REPAY_AMT_LC" type="decimal" />
+    <property name="RepaymentAmountFC" column="TBIL_LOAN_DISB_LOAN_AMT_FC" type="decimal" />
+    <property name="LoanInterestRate" column="TBIL_LOAN_DISB_INT_RT" type="decimal" />
+    <property name="LoanInterestAmtLC" column="TBIL_LOAN_DISB_INT_AMT_LC" type="decimal" />
+    <property name="LoanInterestAmtFC" column="TBIL_LOAN_DISB_INT_AMT_FC" type="decimal" />
+    <property name="LoanDisbursementChargeLC" column="TBIL_LOAN_DISB_CHGS_LC" type="decimal" />
+    <property name="LoanDisbursementChargeFC" column="TBIL_LOAN_DISB_CHGS_FC" type="decimal" />
+    <property name="FirstInstallAmountLC" column="TBIL_LOAN_DISB_FIRST_INSTAL_AMT_LC" type="decimal" />
+    <property name="FirstInstallAmountFC" column="TBIL_LOAN_DISB_FIRST_INSTAL_AMT_FC" type="decimal" />
+
+  </class>
+</hibernate-mapping>

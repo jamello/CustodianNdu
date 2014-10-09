@@ -1,0 +1,131 @@
+set ansi_nulls off;
+go
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF OBJECT_ID (N'[dbo].CtFn_SearchFxdAssUser', N'TF') IS NOT NULL
+begin
+   DROP FUNCTION [dbo].CtFn_SearchFxdAssUser;
+   IF  EXISTS (	SELECT * FROM sys.objects 
+				WHERE object_id = OBJECT_ID(N'[dbo].[CtFn_SearchFxdAssUser]') 
+				AND type in (N'TF')
+			  )
+		Print '<<< Failed Dropping  FUNCTION [CtFn_SearchFxdAssUser] created !!! >>>'
+	else
+		Print '<<< FUNCTION [dbo].[CtFn_SearchFxdAssUser] Dropped >>>'
+end   
+else
+	Print '<<< !!! Error FUNCTION [dbo].[CtFn_SearchFxdAssUser] does Not exist >>>' ;   
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE function dbo.CtFn_SearchFxdAssUser
+(
+		@pCompany_Id	smallint
+	,	@pSearchType	nvarchar(100) = Null
+	,	@pParam1     nvarchar(100)
+	,	@pParam2     nvarchar(100)
+	,	@pParam3     nvarchar(100)	
+)
+RETURNS @rFxdAssUser Table 
+(
+		sUser_Id	nvarchar(50) Not NULL,
+		sUser_Name	nvarchar(200) Not NULL,
+		sLocation	nvarchar(100) Not NULL,
+		sStatus		nvarchar(15) Not Null
+)
+
+--with encryption
+AS
+BEGIN
+    /***************************************
+	    Author      : James Nnannah
+	    Create date : April  2011
+	    Description : Used to search for Fixed Assets Users 
+	    Version     : 1
+    ******************************************/
+		declare @SearchSwitch char(1);
+		
+		set @pParam1 = REPLACE(@pParam1,N'''',N'--');
+		set @pParam1 = REPLACE(@pParam1,N'--',N'--');		
+		set @pParam1 = REPLACE(@pParam1,N';',N'--');				
+		set @pParam1 = REPLACE(@pParam1,N'/* ... */',N'--');	
+		set @pParam1 = REPLACE(@pParam1,N'xp_',N'--');
+		
+		begin
+			set @SearchSwitch = (select Option_Value from Gb_Company_Options 
+								where Option_Name = 'FxdAsset_Empl')
+		end
+		
+		if (@pSearchType = 'User_Name' and @SearchSwitch = 'y'  )
+		begin
+    
+			Insert into @rFxdAssUser
+			select 	  
+			  a.StaffID, 	  
+			  a.Surname + " "+ a.FirstName + " "+ a.OtherName StaffName,
+			  a.Branch,
+			  a.Status
+			from CAML_Staff_List a
+			where  
+		        (
+			  ltrim(rtrim(StaffName)) like '%' + rtrim(ltrim(@pParam1))+'%' 
+		         )
+		        
+		        order by a.status Asc
+		end
+		else if (@pSearchType = 'All' and @SearchSwitch = 'y' )
+		begin
+			Insert into @rFxdAssUser
+			select 	  
+			  a.StaffID, 	  
+			  [a.Surname + " "+ a.FirstName + " "+ a.OtherName]as StaffName,
+			  a.Branch,
+			  a.Status
+			from CAML_Staff_List a
+		        order by a.status Asc
+		end						
+		else if (@pSearchType = 'User_Name' and @SearchSwitch = 'n'  )
+		begin
+		    
+			Insert into @rFxdAssUser
+			select 	  
+			  a.Fxd_User_Id, 	  
+			  [a.Surname + ''+ a.First_Name + ''+ a.Other_Names]as StaffName,
+			  b.Branch_Name,
+			  a.Status
+			from FxdAsset_Users a, Gb_Branches b
+			where a.Company_Id = @pCompany_Id and a.Branch_Id = b.Branch_Id
+		        and 
+		        (
+			  ltrim(rtrim(a.User_Descr)) like '%' + rtrim(ltrim(@pParam1))+'%' 
+		         )
+		        
+		        order by a.status Asc
+		end
+		else if (@pSearchType = 'All' and @SearchSwitch = 'n' )
+		begin
+			Insert into @rFxdAssUser
+			select 	  
+			  a.Fxd_User_Id, 	  
+			  [a.Surname + ''+ a.First_Name + ''+ a.Other_Names] as StaffName,
+			  b.Branch_Name,
+			  a.Status
+			from FxdAsset_Users a, Gb_Branches b
+			where a.Company_Id = @pCompany_Id and a.Branch_Id = b.Branch_Id
+		        order by a.status Asc
+		end						
+	skipp:
+   RETURN
+END	
+GO
+IF  EXISTS (SELECT * FROM sys.objects 
+			WHERE object_id = OBJECT_ID(N'[dbo].[CtFn_SearchFxdAssUsers]') 
+			AND type in (N'TF'))
+	Print '<<< Success creating function  [dbo].[CtFn_SearchFxdAssUsers] created !!! >>>'
+else
+	Print '<<< !!! Error creating function [dbo].[CtFn_SearchFxdAssUsers] Not created >>>'
+GO

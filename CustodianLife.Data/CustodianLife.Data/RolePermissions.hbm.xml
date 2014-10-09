@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="RolePermissions" table="TBIL_ROLE_PERMISSIONS">
+    <id name="rpId" column="ROLE_PERMISSIONS_REC_ID" >
+      <generator class="identity"/>
+    </id>
+    <property name="UserRole" column="USER_ROLE" length="50" />
+    <property name="Menu" column="MENU" length="5" />
+    <property name="Home" column="HOME" length="5" />
+    <property name="CodesMastersSetup" column="CODESMASTERSSETUP" length="5" />
+    <property name="CodesMastersSetupU1" column="CODESMASTERSSETUPU1" length="5" />
+    <property name="GeneralLedger" column="GENERALLEDGER" length="5" />
+    <property name="GeneralLedgerU1" column="GENERALLEDGERU1" length="5" />
+    <property name="GlCodesSetup" column="GLCODESSETUP" length="5" />
+    <property name="GlCodesSetupU1" column="GLCODESSETUPU1" length="5" />
+    <property name="GlCodesPrint" column="GLCODESPRINT" length="5" />
+    <property name="GlCodesPrintU1" column="GLCODESPRINTU1" length="5" />
+    <property name="GlTrans" column="GLTRANS" length="5" />
+    <property name="GlTransU1" column="GLTRANSU1" length="5" />
+    <property name="GlJournal" column="GLJOURNAL" length="5" />
+    <property name="GlJournalU1" column="GLJOURNALU1" length="5" />
+    <property name="GlMasterUpdate" column="GLMASTERUPDATE" length="5" />
+    <property name="GlMasterUpdateU1" column="GLMASTERUPDATEU1" length="5" />
+    <property name="GlReports" column="GLREPORTS" length="5" />
+    <property name="GlReportsU1" column="GLREPORTSU1" length="5" />
+    <property name="FinReportGroup" column="FINREPORTGROUP" length="5" />
+    <property name="FinReportGroupU1" column="FINREPORTGROUPU1" length="5" />
+    <property name="GlMonthEnd" column="GLMONTHEND" length="5" />
+    <property name="GlMonthEndU1" column="GLMONTHENDU1" length="5" />
+    <property name="GlYearEnd" column="GLYEAREND" length="5" />
+    <property name="GlYearEndU1" column="GLYEARENDU1" length="5" />
+    <property name="Receivable" column="RECEIVABLE" length="5" />
+    <property name="ReceivableU1" column="RECEIVABLEU1" length="5" />
+    <property name="RecCodesSetup" column="RECCODESSETUP" length="5" />
+    <property name="RecCodesSetupU1" column="RECCODESSETUPU1" length="5" />
+    <property name="RecDebEntry" column="RECDEBENTRY" length="5" />
+    <property name="RecDebEntryU1" column="RECDEBENTRYU1" length="5" />
+    <property name="RecDebTransReport" column="RECDEBTRANSREPORT" length="5" />
+    <property name="RecDebTransReportU1" column="RECDEBTRANSREPORTU1" length="5" />
+    <property name="RecMasterUpdate" column="RECMASTERUPDATE" length="5" />
+    <property name="RecMasterUpdateU1" column="RECMASTERUPDATEU1" length="5" />
+    <property name="RecDebtorReports" column="RECDEBTORREPORTS" length="5" />
+    <property name="RecDebtorReportsU1" column="RECDEBTORREPORTSU1" length="5" />
+    <property name="Payables" column="PAYABLES" length="5" />
+    <property name="PayablesU1" column="PAYABLESU1" length="5" />
+    <property name="PayCodesSetup" column="PAYCODESSETUP" length="5" />
+    <property name="PayCodesSetupU1" column="PAYCODESSETUPU1" length="5" />
+    <property name="PayCredTransEntry" column="PAYCREDTRANSENTRY" length="5" />
+    <property name="PayCredTransEntryU1" column="PAYCREDTRANSENTRYU1" length="5" />
+    <property name="PayCredTransRep" column="PAYCREDTRANSREP" length="5" />
+    <property name="PayCredTransRepU1" column="PAYCREDTRANSREPU1" length="5" />
+    <property name="PayCreditorsReports" column="PAYCREDITORSREPORTS" length="5" />
+    <property name="PayCreditorsReportsU1" column="PAYCREDITORSREPORTSU1" length="5" />
+    <property name="Fixedassets" column="FIXEDASSETS" length="5" />
+    <property name="FixedassetsU1" column="FIXEDASSETSU1" length="5" />
+    <property name="FaCodesSetup" column="FACODESSETUP" length="5" />
+    <property name="FaCodesSetupU1" column="FACODESSETUPU1" length="5" />
+    <property name="FaReports" column="FAREPORTS" length="5" />
+    <property name="FaReportsU1" column="FAREPORTSU1" length="5" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TestCustodianLife
+</name>
+</assembly>
+<members>
+<member name="P:TestCustodianLife.ReceiptsRepositoryTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:TestCustodianLife.ReceiptsRepositoryTest.GetNextSerialNumberTest">
+	<summary>
+A test for GetNextSerialNumber
+</summary>
+</member><member name="T:TestCustodianLife.ReceiptsRepositoryTest">
+	<summary>
+This is a test class for ReceiptsRepositoryTest and is intended
+to contain all ReceiptsRepositoryTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

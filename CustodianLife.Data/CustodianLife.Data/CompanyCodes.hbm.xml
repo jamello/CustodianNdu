@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="CompanyCodes" table="TBFN_COMP_CD_TAB">
+    <id name="ccId" column="TBFN_COMP_CD_TAB_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="CompanyCode" column="TBFN_COMP_CD" length="3" />
+    <property name="CompanyLongName" column="TBFN_COMP_LONG_DESC" length="100" />
+    <property name="CompanyShortName" column="TBFN_COMP_SHRT_DESC" length="20" />
+    <property name="AddressLine1" column="TBFN_COMP_ADDRES1" length="100" />
+    <property name="AddressLine2" column="TBFN_COMP_ADDRES2" length="100" />
+    <property name="PhoneNo1" column="TBFN_COMP_PHONE1" length="25" />
+    <property name="PhoneNo2" column="TBFN_COMP_PHONE2" length="25" />
+    <property name="RegNo" column="TBFN_COMP_REG_NO" length="20" />
+    <property name="EmailAddress1" column="TBFN_COMP_EMAIL1" length="35" />
+    <property name="EmailAddress2" column="TBFN_COMP_EMAIL2" length="35" />
+    <property name="GroupSubsidiary" column="TBFN_COMP_GRP_SUB " length="1" />
+    <property name="EstablishDate" column="TBFN_COMP_DATE_ESTAB" type="datetime" />
+  </class>
+</hibernate-mapping>

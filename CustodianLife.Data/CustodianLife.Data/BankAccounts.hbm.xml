@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="BankAccounts" table="TBFN_ACCT_BANK_TAB">
+    <id name="baId" column="TBFN_ACCT_BANK_TAB_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="CompanyCode" column="TBFN_BANK_COMP_CD" length="3" />
+    <property name="StartBankDivision" column="TBFN_BANK_DIV_FROM" length="5" />
+    <property name="EndBankDivision" column="TBFN_BANK_DIV_TO" length="5" />
+    <property name="StartBankDepartment" column="TBFN_BANK_DEPT_FROM" length="05" />
+    <property name="EndBankDepartment" column="TBFN_BANK_DEPT_TO" length="05" />
+    <property name="BankTransType" column="TBFN_BANK_TRANS_TYP" length="1" />
+    <property name="BankPaymentMode" column="TBFN_BANK_PAY_MODE" length="1" />
+    <property name="OurBankCode" column="TBFN_OUR_BANK_CODE" length="15" />
+    <property name="GLMainAccount" column="TBFN_BANK_GL_MAIN_CD" length="10" />
+    <property name="GLSubAccount" column="TBFN_BANK_GL_SUB_CD" length="5" />
+    <property name="BranchCode" column="TBFN_BANK_BRANCH" length="5" />
+  </class>
+</hibernate-mapping>

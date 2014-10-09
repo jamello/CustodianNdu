@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="InsuredDetails" table="TBIL_INS_DETAIL">
+    <id name="idId" column="TBIL_INS_DETAIL_REC_ID"  >
+      <generator class="identity"/>
+    </id>
+    <property name="InsuredModule" column="TBIL_INSRD_MDLE" length="3" />
+    <property name="InsuredClass" column="TBIL_INSRD_CLASS" length="5" />
+    <property name="InsuredCode" column="TBIL_INSRD_CODE" length="15" />
+    <property name="InsuredSurname" column="TBIL_INSRD_SURNAME" length="60" />
+    <property name="InsuredFirstname" column="TBIL_INSRD_FIRSTNAME" length="60" />
+    <property name="InsuredLongname" column="TBIL_INSRD_LONG_NAME" length="100" />
+    <property name="InsuredShortname" column="TBIL_INSRD_SHRT_NAME" length="20" />
+    <property name="InsuredAddress1" column="TBIL_INSRD_ADRES1" length="100" />
+    <property name="InsuredAddress2" column="TBIL_INSRD_ADRES2" length="100" />
+    <property name="InsuredPhone1" column="TBIL_INSRD_PHONE1" length="25" />
+    <property name="InsuredPhone2" column="TBIL_INSRD_PHONE2" length="25" />
+    <property name="InsuredEmail1" column="TBIL_INSRD_EMAIL1" length="35" />
+    <property name="InsuredEmail2" column="TBIL_INSRD_EMAIL2" length="35" />
+    <property name="InsuredOccupation" column="TBIL_INSRD_OCCUP_CODE" length="5" />
+    <property name="InsuredBizSource" column="TBIL_INSRD_SOURCE_BIZ" length="5" />
+    <property name="InsuredCreditLimit" column="TBIL_INSRD_CR_LIMT" type="decimal" />
+    <property name="InsuredPayMode" column="TBIL_INSRD_PAY_MODE" length="3" />
+    <property name="InsuredBranchCode" column="TBIL_INSRD_BRNCH_CODE" length="5"/>
+  </class>
+</hibernate-mapping>

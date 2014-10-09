@@ -1,0 +1,47 @@
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\TestCustodianLife.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\TestCustodianLife.pdb
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\TestCustodianLife.xml
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Antlr3.Runtime.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\C5.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Castle.Core.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Castle.DynamicProxy2.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Common.Logging.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Data.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Model.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Repositories.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Iesi.Collections.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\log4net.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\NHibernate.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Model.pdb
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Data.pdb
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Repositories.pdb
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\obj\Debug\ResolveAssemblyReference.cache
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\obj\Debug\TestCustodianLife.dll
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\obj\Debug\TestCustodianLife.xml
+C:\production\WEB APPS\CustodianLife\CustodianLife.Webv\TestCustodianLife\obj\Debug\TestCustodianLife.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\TestCustodianLife.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\TestCustodianLife.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\TestCustodianLife.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Antlr3.Runtime.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\C5.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Castle.Core.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Castle.DynamicProxy2.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Common.Logging.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Data.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Model.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Repositories.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Iesi.Collections.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\log4net.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\NHibernate.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Castle.DynamicProxy2.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\log4net.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Model.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Data.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Iesi.Collections.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\NHibernate.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\CustodianLife.Repositories.pdb
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\bin\Debug\Castle.Core.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\obj\Debug\ResolveAssemblyReference.cache
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\obj\Debug\TestCustodianLife.dll
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\obj\Debug\TestCustodianLife.xml
+C:\james stuff\myC\WEBAPPS\PRODUCTION\CSHARP\VS2008 version\CustodianLife\CustodianLife.Webv\TestCustodianLife\obj\Debug\TestCustodianLife.pdb

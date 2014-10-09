@@ -1,0 +1,63 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.dataBrowser{
+	margin: 25px;
+	padding: 0;
+	height: 100%;
+}
+.popupOffset 
+{
+    position:absolute;
+    left:-9999em;
+    top: 501px;
+}
+
+#simplemodal-container a.modalCloseImg {
+	background:url(../img/x.png) no-repeat; /* adjust url as required */
+	width:25px;
+	height:29px;
+	display:inline;
+	position:absolute;
+	top:-15px;
+	right:-18px;
+	cursor:pointer;
+}
+
+#content 
+
+{
+
+background-color:white;
+margin-top:0px;
+margin-bottom:0px;
+padding:0px;
+width:1000px;
+border-bottom:1px solid #eaeaea;
+overflow:hidden;
+
+
+}
+.reffields {
+    font: bold;
+}
+
+.newpage {
+    background-color: #FFFFFF;
+    padding-left: 186px;
+    padding-top: 10px;
+    height:750px;
+}
+.nodisplay
+{
+    display:none;
+    }
+.searchImage
+{
+    height:15px;
+    width: 15px;
+    
+    }
+    

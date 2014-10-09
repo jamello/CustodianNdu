@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="ProductDetails" table="TBIL_PRODUCT_DETL">
+    <id name="pdId" column="TBIL_PRDCT_ID" >
+      <generator class="identity"/>
+    </id>
+    <property name="ProductDetailsModule" column="TBIL_PRDCT_DTL_MDLE" length="3" />
+    <property name="ProductCategory" column="TBIL_PRDCT_DTL_CAT" length="3" />
+    <property name="ProductCode" column="TBIL_PRDCT_DTL_CODE" length="3" />
+    <property name="ProductDesc" column="TBIL_PRDCT_DTL_DESC" length="300" />
+    <property name="ProductPlanCode" column="TBIL_PRDCT_DTL_PLAN_CD" length="3" />
+    <property name="ProductAgeCalc" column="TBIL_PRDCT_AGE_CALC" length="100" />
+    <property name="ProductSAInstallType" column="TBIL_PRDCT_SA_INSTALL_TYPE" length="30" />
+    <property name="ProductSAMultiple" column="TBIL_PRDCT_SA_PAY_MULTIPLE" length="1" />
+    <property name="ProductCommCode" column="TBIL_PRDCT_COMM_CODE" length="3" />
+    <property name="ProductInstallPay1" column="TBIL_PRDCT_INSTALL_PAY1" type="decimal"/>
+    <property name="ProductInstallPeriod1" column="TBIL_PRDCT_INSTALL_PERIOD1" type="decimal"/>
+    <property name="ProductInstallPay2" column="TBIL_PRDCT_INSTALL_PAY2" type="decimal"/>
+    <property name="ProductInstallPeriod2" column="TBIL_PRDCT_INSTALL_PERIOD2" type="decimal"/>
+    <property name="ProductInstallPay3" column="TBIL_PRDCT_INSTALL_PAY3" type="decimal"/>
+    <property name="ProductInstallPeriod3" column="TBIL_PRDCT_INSTALL_PERIOD3" type="decimal"/>
+    
+    <!--
+    <one-to-one  name="ProductCoverDetail" class="CustodianLife.Model.ProductDetails, CustodianLife.Model" />
+    -->
+  </class>
+</hibernate-mapping>

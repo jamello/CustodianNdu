@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="GLTrans" table="TBFN_TRANS_FILE">
+    <id name="glId" column="TBFN_TRANS_FILE_REC_ID" >
+      <generator class="identity"/>
+    </id>
+    <property name="CompanyCode" column="TBFN_GL_TRANS_COMP" length="3" />
+    <property name="BatchDate" column="TBFN_GL_BATCH_DATE" type="integer" />
+    <property name="BatchNo" column="TBFN_GL_BATCH_NO" type="integer" />
+    <property name="SerialNo" column="TBFN_GL_SER_NO" type="integer" />
+    <property name="SubSerialNo" column="TBFN_GL_SUB_SER_NO" type="integer" />
+    <property name="TransId" column="TBFN_GL_TRANS_ID" length="3" />
+    <property name="TransType" column="TBFN_GL_TRANS_TYP" length="3" />
+    <property name="BranchCode" column="TBFN_GL_BRANCH_CD" length="5" />
+    <property name="DocNo" column="TBFN_GL_DOC_NO" length="15" />
+    <property name="TransDate" column="TBFN_GL_DOC_DATE" type="datetime"  />
+    <property name="TransMode" column="TBFN_GL_TRANS_MODE" length="3"  />
+    <property name="CurrencyType" column="TBFN_GL_CURRCY_TYPE" length="4" />
+    <property name="TellerNo" column="TBFN_GL_TELLER_NO" length="15" />
+    <property name="TellerDate" column="TBFN_GL_TELLER_DATE" type="datetime"  />
+    <property name="ChequeNo" column="TBFN_GL_CHQ_NO" length="150" />
+    <property name="ChequeDate" column="TBFN_GL_CHQ_DATE" type="datetime"/>
+    <property name="ClientName" column="TBFN_GL_PAYER_PAYEE_NAME" length="50"/>
+    <property name="TransDescription" column="TBFN_GL_TRANS_DESC" length="200"/>
+    <property name="Remarks" column="TBFN_GL_TRANS_REMARKS" length="200" />
+    <property name="DeptCode" column="TBFN_GL_DEPT_CD" length="5"/>
+    <property name="GLAmountLC" column="TBFN_GL_AMT_LC" type="decimal"/>
+    <property name="GLAmountFC" column="TBFN_GL_AMT_FC" type="decimal"/>
+    <property name="DetailTransType" column="TBFN_GL_DETAIL_TYP" length="3" />
+    <property name="RefNo1" column="TBFN_GL_REF_NO1" length="15"/>
+    <property name="RefNo2" column="TBFN_GL_REF_NO2" length="15"/>
+    <property name="RefNo3" column="TBFN_GL_REF_NO3" length="15"/>
+    <property name="RefDate" column="TBFN_GL_REF_DATE" type="datetime"/>
+    <property name="DRCR" column="TBFN_GL_DR_CR_CD" length="3" />
+    <property name="RefAmount" column="TBFN_GL_REF_AMT" type="decimal"/>
+    <property name="MainAccount" column="TBFN_GL_MAIN_ACCT" length="15"/>
+    <property name="LedgerTypeCode" column="TBFN_GL_LEDG_TYPE" length="5"/>
+    <property name="SubAccount" column="TBFN_GL_SUB_ACCT" length="10"/>
+    <property name="EntryDate" column="TBFN_GL_ENTRY_DATE" type="datetime"/>
+    <property name="PostStatus" column="TBFN_GL_POST_CD" length="1"/>
+    <property name="ApprovalStatus" column="TBFN_GL_APPRV_CD" length="1"/>
+    <property name="RecordStatus" column="TBFN_GL_STATUS_FLAG" length="1"/>
+    <property name="OperatorId" column="TBFN_GL_OPER_ID" length="3"/>
+    <property name="TotalAmt" column="TBFN_GL_TOT_AMT" type="decimal"/>
+  </class>
+</hibernate-mapping>

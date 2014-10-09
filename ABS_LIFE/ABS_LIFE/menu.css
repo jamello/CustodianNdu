@@ -1,0 +1,49 @@
+﻿.sonemenu{
+width: 290px; /*width of menu*/
+}
+
+.sonemenu .headerbar{
+font: bold 13px Verdana;
+color: white;
+background: #FF6600 url(arrowstop.gif) no-repeat 8px 6px; /*last 2 values are the x and y coordinates of bullet image*/
+margin-bottom: 0; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 7px 0 7px 31px; /*31px is left indentation of header text*/
+}
+
+.sonemenu .headerbar a{
+text-decoration: none;
+color: white;
+display: block;
+}
+
+.sonemenu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.sonemenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.sonemenu ul li a{
+font: normal 12px Arial;
+color: black;
+background: #FFCC00;
+display: block;
+padding: 5px 0;
+line-height: 17px;
+padding-left: 8px; /*link text is indented 8px*/
+text-decoration: none;
+}
+
+.sonemenu ul li a:visited{
+color: black;
+}
+
+.sonemenu ul li a:hover{ /*hover state CSS*/
+color: white;
+background: black
+}

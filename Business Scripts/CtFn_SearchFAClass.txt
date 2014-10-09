@@ -1,0 +1,106 @@
+set ansi_nulls off;
+go
+SET QUOTED_IDENTIFIER ON
+GO
+
+IF OBJECT_ID (N'[dbo].CtFn_SearchFxdAssClass', N'TF') IS NOT NULL
+begin
+   DROP FUNCTION [dbo].CtFn_SearchFxdAssClass;
+   IF  EXISTS (	SELECT * FROM sys.objects 
+				WHERE object_id = OBJECT_ID(N'[dbo].[CtFn_SearchFxdAssClass]') 
+				AND type in (N'TF')
+			  )
+		Print '<<< Failed Dropping  FUNCTION [CtFn_SearchFxdAssClass] created !!! >>>'
+	else
+		Print '<<< FUNCTION [dbo].[CtFn_SearchFxdAssClass] Dropped >>>'
+end   
+else
+	Print '<<< !!! Error FUNCTION [dbo].[CtFn_SearchFxdAssClass] does Not exist >>>' ;   
+GO
+
+-- ================================================
+-- Template generated from Template Explorer using:
+-- Create Multi-Statement Function (New Menu).SQL
+--
+-- Use the Specify Values for Template Parameters 
+-- command (Ctrl-Shift-M) to fill in the parameter 
+-- values below.
+--
+-- This block of comments will not be included in
+-- the definition of the function.
+-- ================================================
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE function dbo.CtFn_SearchFxdAssClass
+(
+		@pCompany_Id	smallint
+	,	@pSearchType	nvarchar(100) = Null
+	,	@pParam1     nvarchar(100)
+	,	@pParam2     nvarchar(100)
+	,	@pParam3     nvarchar(100)	
+)
+RETURNS @rFAClasses Table 
+(
+		sClass_Code	nvarchar(25) Not NULL,
+		sDescription	nvarchar(100) Not NULL,
+		sAsset_Type     nvarchar(50) Not Null,
+		sStatus		nvarchar(15) Not Null
+)
+--with encryption
+AS
+BEGIN
+    /***************************************
+	    Author      : James Nnannah
+	    Create date : April  2011
+	    Description : Used to search for Fixed Assets Classes  
+	    Version     : 1
+    ******************************************/
+		
+		set @pParam1 = REPLACE(@pParam1,N'''',N'--');
+		set @pParam1 = REPLACE(@pParam1,N'--',N'--');		
+		set @pParam1 = REPLACE(@pParam1,N';',N'--');				
+		set @pParam1 = REPLACE(@pParam1,N'/* ... */',N'--');	
+		set @pParam1 = REPLACE(@pParam1,N'xp_',N'--');
+		
+		if (@pSearchType = 'Description' )
+		begin
+			Insert into @rFAClasses
+			select 	  
+			  a.Class_Code, 	  
+			  a.Descrription,
+			  b.Asset_Type,
+			  a.Status
+			from FxdAsset_Classes a,Gb_Ref_FxdAsset_Types b
+			where a.Company_Id = @pCompany_Id
+		        and 
+		        (
+			  ltrim(rtrim(a.Descrription)) like '%' + rtrim(ltrim(@pParam1))+'%' 
+		         )
+		        
+		        order by a.status Asc
+		end
+		else if (@pSearchType = 'All' )
+		begin
+			Insert into @rFAClasses
+			select
+			  a.Class_Code, 	  
+			  a.Descrription,
+			  b.Asset_Type,
+			  a.Status				
+			from FxdAsset_Classes a,Gb_Ref_FxdAsset_Types b
+			where a.Company_Id = @pCompany_Id
+		        order by a.status Asc
+		end						
+	skipp:
+   RETURN
+END	
+GO
+IF  EXISTS (SELECT * FROM sys.objects 
+			WHERE object_id = OBJECT_ID(N'[dbo].[CtFn_SearchFxdAssClass]') 
+			AND type in (N'TF'))
+	Print '<<< Success creating function  [dbo].[CtFn_SearchFxdAssClass] created !!! >>>'
+else
+	Print '<<< !!! Error creating function [dbo].[CtFn_SearchFxdAssClass] Not created >>>'
+GO

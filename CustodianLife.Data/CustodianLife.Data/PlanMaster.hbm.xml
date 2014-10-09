@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
+  <class name="PlanMaster" table="TBIL_PLAN_MAST">
+    <id name="pmId" column="TBIL_PLAN_MAST_REC_ID" >
+      <generator class="identity"/>
+    </id>
+    <property name="ProductCode" column="TBIL_PLAN_PRDCT_CD" length="3" />
+    <property name="PlanCode" column="TBIL_PLAN_CD" length="3" />
+    <property name="PlanTerm" column="TBIL_PLAN_MODE_TERM" type="integer" />
+    <property name="MinimumYears" column="TBIL_PLAN_MIN_YRS" type="integer" />
+    <property name="MaximumYears" column="TBIL_PLAN_MAX_YRS" type="integer" />
+    <property name="MinimumAge" column="TBIL_PLAN_MIN_AG_YRS" type="integer" />
+    <property name="MaximumAge" column="TBIL_PLAN_MAX_AG_YRS" type="integer" />
+    <property name="MinimumSA" column="TBIL_PLAN_MIN_AS" type="decimal" />
+    <property name="MaximumSA" column="TBIL_PLAN_MAX_AS" type="decimal" />
+    <property name="MaturityBasedPayment" column="TBIL_PLAN_PAY_MATURITY" length="1"  />
+    <property name="SAPaymentPeriodic" column="TBIL_PLAN_PAY_PERIODIC" length="1"  />
+    <property name="SAPaymentSurrenderBased" column="TBIL_PLAN_PAY_SURR" length="1" />
+    <property name="NumOfYearsBeforeSurrender" column="TBIL_PLAN_PAY_SURR_YRS" type="integer" />
+    <property name="LoanAllowed" column="TBIL_PLAN_LOAN" length="1" />
+    <property name="LoanPercentOnSA" column="TBIL_PLAN_LOAN_PCENT" type="decimal"/>
+    <property name="MinimumLoanAmt" column="TBIL_PLAN_MIN_LOAN_AMT" type="decimal"/>
+    <property name="PolicyValidAfterMaturity" column="TBIL_PLAN_POL_VALID_MATURE" length="1" />
+    <property name="AnnualPaymentModeRate" column="TBIL_PLAN_MOP_YR_RATE" type="decimal"/>
+    <property name="HalfYearlyPaymentModeRate" column="TBIL_PLAN_MOP_HFYR_RATE" type="decimal"/>
+    <property name="QuarterlyPaymentModeRate" column="TBIL_PLAN_MOP_QTR_RATE" type="decimal"/>
+    <property name="MonthlyPaymentModeRate" column="TBIL_PLAN_MOP_MTH_RATE" type="decimal"/>
+
+  </class>
+</hibernate-mapping>
