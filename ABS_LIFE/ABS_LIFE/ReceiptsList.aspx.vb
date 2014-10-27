@@ -11,8 +11,6 @@ Partial Public Class ReceiptsList
             chRepo = New ReceiptsRepository
 
             Session("chRepo") = chRepo
-            'updateFlag = False
-            'Session("updateFlag") = updateFlag
 
         Else 'post back
             chRepo = CType(Session("chRepo"), ReceiptsRepository)

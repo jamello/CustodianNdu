@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAccountGroupsRepository.cs" />
     <Compile Include="IAccountsActivityCodesRepository.cs" />
     <Compile Include="IAccountsChartRepository.cs" />
     <Compile Include="IAgcyStdComRepository.cs" />

@@ -129,14 +129,36 @@ namespace CustodianLife.Data
             //It seems that settings from the c# dll calls for date format is changed when it gets to VB.net client. 
             //This is still subject to research before final conclusion though.
             string[] dateparts = dte.Split('/');
-            Int16 dy =Convert.ToInt16( dateparts[0]);
-            Int16 mt = Convert.ToInt16( dateparts[1]);
-            Int16 ky  = Convert.ToInt16( dateparts[2]);
+            Int16 dy = Convert.ToInt16(dateparts[0]);
+            Int16 mt = Convert.ToInt16(dateparts[1]);
+            Int16 ky = Convert.ToInt16(dateparts[2]);
             System.DateTime dateInMay = new System.DateTime(ky, mt, dy, 0, 0, 0);
             //String myDate = mt + "/" + dy + "/" + ky;
             return dateInMay;
         }
- 
+
+        public static String DateToServerSetting(String dte)
+        {
+            //change date from dd/mm/yyyy to mm/dd/yyyy to achieve consonance with the server.
+            string[] dateparts = dte.Split('/');
+            Int16 dy = Convert.ToInt16(dateparts[0]);
+            Int16 mt = Convert.ToInt16(dateparts[1]);
+            Int16 ky = Convert.ToInt16(dateparts[2]);
+            String myDate = mt + "/" + dy + "/" + ky;
+            return myDate;
+        }
+
+        public static String DateFromServerSetting(String dte)
+        {
+            //change date from mm/dd/yyyy to dd/mm/yyyy to achieve consonance with the client.
+            string[] dateparts = dte.Split('/');
+            Int16 dy = Convert.ToInt16(dateparts[0]);
+            Int16 mt = Convert.ToInt16(dateparts[1]);
+            Int16 ky = Convert.ToInt16(dateparts[2]);
+            String myDate = dy + "/" + mt + "/" + ky;
+            return myDate;
+        }
+
         public static Double RealNumberNoSpaces(string str)
         {
             if (str == "")

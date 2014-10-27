@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-<script language="JavaScript" src="calendar_eu.js" type="text/javascript"></script>
+    <script language="JavaScript" src="calendar_eu.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="calendar.css" />
     <link href="css/general.css" rel="stylesheet" type="text/css" />   
     <link href="css/grid.css" rel="stylesheet" type="text/css" />   

@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountGroup.cs" />
     <Compile Include="AccountsActivityCodes.cs" />
     <Compile Include="AgencyProductionBudget.cs" />
     <Compile Include="AgencyStandardComm.cs" />

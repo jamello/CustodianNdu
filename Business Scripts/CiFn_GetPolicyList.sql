@@ -44,13 +44,6 @@ BEGIN
 	    Version     : 1
     ******************************************/
 
-            if (_key == "All")
-                fCriteria = "";
-            else
-                if (_key == "Policy")
-                    fCriteria = "PolicyNumber";
-                else
-                    if (_key == "Proposal")
 
 		IF @pSearchType = 'Policy'
 		BEGIN	
@@ -61,7 +54,7 @@ BEGIN
 				FROM [TBIL_INS_DETAIL] b WHERE b.[TBIL_INSRD_CODE] = p.[TBIL_POLY_ASSRD_CD]) as Insured_Name
 			   ,[TBIL_POLY_PROPSAL_NO]
 			   ,TBIL_POLY_PRDCT_CD
-		   FROM [TBIL_POLICY_DET_COMBINE] p
+		   FROM [TBIL_POLICY_DET] p
 		   WHERE p.[TBIL_POLY_POLICY_NO] = @pSearchValue
 		END			
 		IF @pSearchType = 'Proposal'
@@ -73,26 +66,10 @@ BEGIN
 				FROM [TBIL_INS_DETAIL] b WHERE b.[TBIL_INSRD_CODE] = p.[TBIL_POLY_ASSRD_CD]) as Insured_Name
 			   ,[TBIL_POLY_PROPSAL_NO]
 			   ,TBIL_POLY_PRDCT_CD
-		   FROM [TBIL_POLICY_DET_COMBINE] p
-		   WHERE p.[TBIL_POLY_POLICY_NO] = @pSearchValue
+		   FROM [TBIL_POLICY_DET] p
+		   WHERE p.[TBIL_POLY_PROPSAL_NO] = @pSearchValue
 		END			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	 
+		
      RETURN
 END	
 GO

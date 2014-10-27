@@ -597,19 +597,20 @@
         //debugger;
         $.each(policyholders, function() {
             var policyholder = $(this);
+            document.getElementById('txtInsuredCode').value = $(this).find("TBIL_POLY_ASSRD_CD").text();
+            document.getElementById('txtAgentCode').value = $(this).find("TBIL_POLY_AGCY_CODE").text();
+            document.getElementById('txtAssuredName').value = $(this).find("Insured_Name").text();
+            document.getElementById('txtAssuredAddress').value = $(this).find("Insured_Address").text();
+            document.getElementById('txtPayeeName').value = $(this).find("Insured_Name").text();
+            document.getElementById('txtPolRegularContrib').value = $(this).find("TBIL_POL_PRM_DTL_MOP_PRM_LC").text();
+            document.getElementById('txtAgentName').value = $(this).find("Agent_Name").text();
+            document.getElementById('txtMOP').value = $(this).find("Payment_Mode").text();
+            document.getElementById('txtMOPDesc').value = $(this).find("Payment_Mode_Desc").text();
+            document.getElementById('txtPolicyEffDate').value = $(this).find("TBIL_POLICY_EFF_DT").text();
 
-            document.getElementById('txtInsuredCode').value = $(this).find("TBIL_POLY_ASSRD_CD").text()
-            document.getElementById('txtAgentCode').value = $(this).find("TBIL_POLY_AGCY_CODE").text()
-            document.getElementById('txtAssuredName').value = $(this).find("Insured_Name").text()
-            document.getElementById('txtAssuredAddress').value = $(this).find("Insured_Address").text()
-            document.getElementById('txtPayeeName').value = $(this).find("Insured_Name").text()
-            document.getElementById('txtAgentName').value = $(this).find("Agent_Name").text()
-            document.getElementById('txtPolRegularContrib').value = $(this).find("TBIL_POL_PRM_DTL_MOP_PRM_LC").text()
-            document.getElementById('txtMOP').value = $(this).find("Payment_Mode").text()
-            document.getElementById('txtMOPDesc').value = $(this).find("Payment_Mode_Desc").text()
-            document.getElementById('txtPolicyEffDate').value = $(this).find("TBIL_POLICY_EFF_DT").text()
-                        
+
         });
+
      }
 
      // ajax call to load receipts cover details
@@ -739,7 +740,7 @@
 
 </head>
 <body onload="<%=publicMsgs%>"  onclick="return cancelEvent('onbeforeunload')">
-    <form id="PRG_FIN_RECPT_ISSUE" runat="server"  SubmitDisabledControls="True">
+    <form id="PRG_FIN_RECPT_ISSUE" runat="server"  submitdisabledcontrols="true">
     <div class="newpage">
 <div>
 <table>
@@ -908,9 +909,9 @@
 				</tr>
 				<tr>
 					<td>Policy Regular Contrib.</td>
-					<td ><asp:TextBox ID="txtPolRegularContrib" runat="server" Width="150px" text=0.00></asp:TextBox></td>
+					<td ><asp:TextBox ID="txtPolRegularContrib" runat="server" Width="150px" text="0.00"></asp:TextBox></td>
 					<td>Mode of Payment</td>
-					<td><asp:TextBox ID="txtMOP" runat="server" Width="20px" Enabled="False"></asp:TextBox><asp:TextBox ID="txtMOPDesc" runat="server" Width="250px" Enabled="false" BorderStyle="None"></asp:TextBox></td>
+					<td><asp:TextBox ID="txtMOP" runat="server" Width="20px"> </asp:TextBox><asp:TextBox ID="txtMOPDesc" runat="server" Width="250px" BorderStyle="None"></asp:TextBox></td>
 
 				</tr>
                 <tr>

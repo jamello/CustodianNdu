@@ -22,6 +22,14 @@ Partial Public Class PRG_FIN_RECPT_ISSUE
     Dim Rceipt As CustodianLife.Model.Receipts
     Protected publicMsgs As String = String.Empty
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        txtMOP.Attributes.Add("disabled", "disabled")
+        txtMOPDesc.Attributes.Add("disabled", "disabled")
+        txtTransDesc2.Attributes.Add("disabled", "disabled")
+        txtAgentCode.Attributes.Add("disabled", "disabled")
+        txtPolRegularContrib.Attributes.Add("disabled", "disabled")
+        txtInsuredCode.Attributes.Add("disabled", "disabled")
+
         If Not Page.IsPostBack Then
             rcRepo = New ReceiptsRepository
             indLifeEnq = New IndLifeCodesRepository
@@ -232,12 +240,8 @@ Partial Public Class PRG_FIN_RECPT_ISSUE
                     Rceipt.PolicyPaymentMode = txtMOP.Text
                     Rceipt.ReceiptType = cmbReceiptType.SelectedValue
                     Rceipt.ReferenceNo = txtReceiptRefNo.Text
-                    'Rceipt.DocNo = txtReceiptNo.Text
-
-                    'Rceipt.SerialNo = CType(txtSerialNo.Text, Long)
                     Rceipt.SubAccountCredit = txtSubAcctCredit.Text
                     Rceipt.SubAccountDebit = txtSubAcctDebit.Text
-                    '  Rceipt.LedgerTypeCredit = txt
 
                     Rceipt.TempTransNo = txtTempReceiptNo.Text
                     Rceipt.TranDescription1 = txtTransDesc1.Text
@@ -320,6 +324,8 @@ Partial Public Class PRG_FIN_RECPT_ISSUE
 
         Session("Rceipt") = Rceipt
         If Rceipt IsNot Nothing Then
+            txtReceiptNo.Enabled = True
+
             txtAgentCode.Text = Rceipt.AgentCode
             txtReceiptAmtFC.Text = Math.Round(Rceipt.AmountFC, 2).ToString()
             txtReceiptAmtLC.Text = Math.Round(Rceipt.AmountLC, 2).ToString()
@@ -343,7 +349,7 @@ Partial Public Class PRG_FIN_RECPT_ISSUE
             txtMainAcctDebit.Text = Rceipt.MainAccountDebit
             txtPayeeName.Text = Rceipt.PayeeName
             cmbMode.SelectedValue = Rceipt.PolicyPaymentMode
-            txtPolRegularContrib.Text = Rceipt.PolicyRegularContribution.ToString()
+            txtPolRegularContrib.Text = Math.Round(Rceipt.PolicyRegularContribution, 2)
 
             txtMOP.Text = Rceipt.PolicyPaymentMode
             cmbReceiptType.SelectedValue = Rceipt.ReceiptType
@@ -369,6 +375,7 @@ Partial Public Class PRG_FIN_RECPT_ISSUE
 
     End Sub
     Protected Sub initializeFields()
+        txtReceiptNo.Enabled = False
 
         txtAgentCode.Text = String.Empty
         txtReceiptAmtFC.Text = String.Empty
@@ -567,6 +574,10 @@ Partial Public Class PRG_FIN_RECPT_ISSUE
     End Sub
 
     Protected Sub txtMainAcctDebitDesc_TextChanged(ByVal sender As Object, ByVal e As EventArgs) Handles txtMainAcctDebitDesc.TextChanged
+
+    End Sub
+
+    Protected Sub txtReceiptNo_TextChanged(ByVal sender As Object, ByVal e As EventArgs) Handles txtReceiptNo.TextChanged
 
     End Sub
 End Class

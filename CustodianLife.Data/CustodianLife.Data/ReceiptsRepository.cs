@@ -73,6 +73,16 @@ namespace CustodianLife.Data
                 return (Receipts)session.CreateQuery(hqlOptions).UniqueResult();
             }
         }
+        public Receipts GetByReceiptNo(String _receiptno)
+        {
+            string hqlOptions = "from Receipts i where i.DocNo = " + _receiptno;
+            using (var session = GetSession())
+            {
+
+                return (Receipts)session.CreateQuery(hqlOptions).UniqueResult();
+            }
+        }
+
 
 
         public IList<Receipts> GetById(String _key, String _value)
@@ -90,15 +100,17 @@ namespace CustodianLife.Data
             switch (_key)
             {
                 case "Code":
-                    hqlOptions = "from Receipts r where r." + fCriteria + " like '%" + _value + "%'";
+                    hqlOptions = "from Receipts r where r." + fCriteria + " like '%" + _value + "%' Order by EntryDate Desc";
                     using (var session = GetSession())
                     {
 
                         return session.CreateQuery(hqlOptions).List<Receipts>();
                     }
                 case "TDate":
+                    //change user date to server format
+                    _value = hashHelper.DateToServerSetting(_value);
 
-                    hqlOptions = "from Receipts r where r." + fCriteria + " = '" + _value + "'";
+                    hqlOptions = "from Receipts r where r." + fCriteria + " = '" + _value + "' Order by EntryDate Desc";
                     using (var session = GetSession())
                     {
 
@@ -107,7 +119,7 @@ namespace CustodianLife.Data
 
                 case "All":
 
-                    hqlOptions = "from Receipts r";
+                    hqlOptions = "from Receipts r order by EntryDate Desc";
                     using (var session = GetSession())
                     {
                         return session.CreateQuery(hqlOptions).List<Receipts>();
@@ -363,20 +375,20 @@ namespace CustodianLife.Data
                           + ",[TBIL_POLY_POLICY_NO]"
                           + ",[TBIL_POLY_ASSRD_CD]"
                           + ",(SELECT [TBIL_INSRD_SURNAME] + ' ' + ISNULL([TBIL_INSRD_FIRSTNAME],' ')"
-                          + " FROM [TBIL_INS_DETAIL_COMBINE] b WHERE b.[TBIL_INSRD_CODE] = p.[TBIL_POLY_ASSRD_CD]) as Insured_Name"
+                          + " FROM [TBIL_INS_DETAIL] b WHERE b.[TBIL_INSRD_CODE] = p.[TBIL_POLY_ASSRD_CD]) as Insured_Name"
                           + "	                    ,	(SELECT "
                           + "    [TBIL_INSRD_ADRES1] + ' ' + ISNULL([TBIL_INSRD_ADRES2],' ') "
-                          + "  FROM [TBIL_INS_DETAIL_COMBINE] y "
+                          + "  FROM [TBIL_INS_DETAIL] y "
 		                  + "  WHERE y.[TBIL_INSRD_CODE] = p.[TBIL_POLY_ASSRD_CD]) as Insured_Address "
                           + ",[TBIL_POLY_AGCY_CODE]"
                           + ",(SELECT [TBIL_AGCY_AGENT_NAME] FROM [TBIL_AGENCY_CD] d WHERE d.[TBIL_AGCY_AGENT_CD]= p.[TBIL_POLY_AGCY_CODE]) as Agent_Name"
                           + ", [TBIL_POL_PRM_DTL_MOP_PRM_LC]"
                           + ",[TBIL_POL_PRM_MODE_PAYT] as Payment_Mode "
-                          + ",(SELECT CASE [TBIL_POL_PRM_MODE_PAYT] WHEN 'M' THEN 'MONTHLY' WHEN 'A' THEN 'ANNUALLY' WHEN 'H' THEN 'HALF YEARLY' WHEN 'Q' THEN 'QUARTERLY' END) as Payment_Mode_Desc "
+                          + ",(SELECT CASE [TBIL_POL_PRM_MODE_PAYT] WHEN 'M' THEN 'MONTHLY' WHEN 'A' THEN 'ANNUALLY' WHEN 'H' THEN 'HALF YEARLY' WHEN 'Q' THEN 'QUARTERLY' END) as Payment_Mode_Desc"
                           + ",convert(varchar, [TBIL_POLICY_EFF_DT], 102) as TBIL_POLICY_EFF_DT"
-                          + " FROM [TBIL_POLICY_DET_COMBINE] p INNER JOIN [TBIL_POLICY_PREM_DETAILS_COMBINE] q " 
+                          + " FROM [TBIL_POLICY_DET] p INNER JOIN [TBIL_POLICY_PREM_DETAILS] q " 
                           + "ON p.[TBIL_POLY_POLICY_NO] = q.[TBIL_POL_PRM_DTL_POLY_NO] "
-                          + "INNER JOIN [TBIL_POLICY_PREM_INFO_COMBINE] r " 
+                          + "INNER JOIN [TBIL_POLICY_PREM_INFO] r " 
                           + "ON p.[TBIL_POLY_POLICY_NO] = r.TBIL_POL_PRM_POLY_NO "
                           + " WHERE p." + fld + " = '" + criteriaValue + "'";
             return GetDataSet(query).GetXml();

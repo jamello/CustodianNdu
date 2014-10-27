@@ -264,6 +264,7 @@ ddaccordion.init({
                             <li><a href="#" target="frame_a">Transaction Codes</a></li>
                             <li><a href="#" target="frame_a">Currency Codes</a></li>
                             <li><a href="#" target="frame_a">Exchange Rates</a></li>
+                            <li><a href="PRG_FIN_ACC_GRP_SETUP.aspx" target="">Account Groups Setup</a></li>
                             <li><a <a href="ChartOfAccountsEntryBrowse.aspx" target="">Main/Sub Account Setup</a></li>
                             <li><a href="#" target="frame_a">Activity Codes</a></li>
                             <li><a href="#" target="frame_a">Undwrtng Xref To G/L</a></li>

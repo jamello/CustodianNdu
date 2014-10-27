@@ -78,6 +78,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountGroupsRepository.cs" />
     <Compile Include="AccountsActivityCodesRepository.cs" />
     <Compile Include="AccountsChartRepository.cs" />
     <Compile Include="AgencyCommRepository.cs" />
@@ -222,6 +223,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Invoice.hbm.xml" />
     <EmbeddedResource Include="LifeCodes.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountGroup.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="CustodianLife.Model" namespace="CustodianLife.Model">
-  <class name="PolicyInfo" table="TBIL_POLICY_DET_COMBINE">
+  <class name="PolicyInfo" table="TBIL_POLICY_DET">
     <id name="polId" column="TBIL_POLY_REC_ID">
       <generator class="identity"/>
     </id>

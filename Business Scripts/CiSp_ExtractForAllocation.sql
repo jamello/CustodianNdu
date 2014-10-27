@@ -52,7 +52,7 @@ AS
          Declare 
                 @Ref_No              [nvarchar](40)  	
 			-------------------------------------    
-            ,   @PRDCT_CD              [nvarchar](15)  	
+            ,   @PRDCT_CD              [nvarchar](25)  	
             ,   @RECP_TYP				[nvarchar](1)  	
             ,	@Channel_Id			    smallint 
 		    ,   @ReturnCode			    int
@@ -64,8 +64,26 @@ AS
 	        ,   @MaxRecords             Int
 	        ,   @intErrorCode           Int 
 	        ,   @ExitCode               Int
-	        ,	@rCurrent_Processing_Date   Date  
 	        ,	@Reversed			    Bit    
+            ,   @ClaimsAmt				decimal(21,6)
+            ,   @Premium1				decimal(21,6)
+            ,   @Premium2				decimal(21,6)
+            ,   @Savings1				decimal(21,6)
+            ,   @Savings2				decimal(21,6)
+            ,   @Lump1   				decimal(21,6)
+            ,   @ChgPrem  				decimal(21,6)
+            ,   @PolicyType  				decimal(21,6)
+			,   @BusinessType	    nvarchar(25)
+-----------------------------------------------------------
+			,   @rProductCd	        nvarchar(50) 
+			,   @rPolicyType	    nvarchar(5) 
+			,   @rAllocationCode	nvarchar(1) 
+			,   @rBusinessType	    nvarchar(25)
+			,   @rTransAmt	        decimal(23,9)
+			,   @rMOPPrem	        decimal(23,9)
+			,   @rMOPContrib        decimal(23,9)
+			,   @rYear				int
+            
 	        
 		    --
 		    -- Declare  Table variable to be used for processing
@@ -95,6 +113,13 @@ AS
 		     ,  @ExitCode               = 0	 
              ,  @Channel_Id             = 30
              ,  @ReturnCode             = 0
+
+            ,   @Premium1				= 0
+            ,   @Premium2				= 0 
+            ,   @Savings1				= 0
+            ,   @Savings2				= 0
+            ,   @Lump1   				= 0
+            ,   @Chg_Prem  				= 0
 
 		    if @pDebug > 0
 			    print 'Starting CiSp_ExtractForAllocation.................'
@@ -165,7 +190,7 @@ AS
 	                if @pDebug > 0  
 		                print @rErrorText
 					
-	                Return -127054
+	                Return -127100
               end
               else 
                 if @pDebug > 0
@@ -224,7 +249,7 @@ AS
 					                if @pDebug > 0  
 						                print @rErrorText
     								
-					                select @intErrorCode = -127053
+					                select @intErrorCode = -127101
     																		 	
 					                goto ERR_HANDLER								
 		                    end  
@@ -233,27 +258,27 @@ AS
                                     print 'CiSp_ExtractForAllocation......: Retrived ref no Details --> '
                                             + LTRIM(str(@Ref_No)) 
                             ------------------------------------------------------
-                            -- Submit verify for Claims 
+                            -- Submit verification for Claims 
                             ------------------------------------------------------	  
                                   					            
 				            if @RECP_TYP = 'Y'
 				            begin
-				             --validate for claims
-				             
-				            end
-				            
+				             --validate for claims				             
 				            Begin Try       
 
-                                    Exec @ReturnCode = Ctsp_CalcClientStockValuation
+                                    Exec @ReturnCode = CiSp_GetProductsInfoForExtract
 		                                    @pCompany_Id 
-	                                    ,   @pEOD_Id	         
                                         ,   @Ref_No             
-                                        ,   @Channel_Id
+                                        ,   @RECP_TYP
                                         ,   @pProcess_From_Date
-	                                    ,	@pProcess_User_Id
-                                        ,   Null 
-                                        ,   Null
-	                                    ,	@rRecCount			output  	
+	                                    ,	@rProductCd output
+                                        ,   @rPolicyType output 
+                                        ,   @rAllocationCode output
+                                        ,   @rBusinessType output
+                                        ,   @rTransAmt output
+                                        ,   @rMOPPrem output
+                                        ,   @rMOPContrib output
+                                        ,   @rYear output
 	                                    ,	@pDebug			    
 	                                    ,	@rSqlError		    output  
 	                                    ,	@rErrorText		    output     
@@ -263,10 +288,60 @@ AS
                                     Select @rErrorText = ERROR_MESSAGE()
                                     ,      @rSqlError  = ERROR_NUMBER()
                               End Catch  
-  
+
                               if (@ReturnCode != 0 ) or  (@rSqlError != 0)
                               begin
-			                            Begin
+			                            begin
+				                            if @@TRANCOUNT > 0
+					                            Rollback Tran DetailWork 
+			                            end								    
+        														    
+			                            select @rErrorText = 'CiSp_ExtractForAllocation....: Error retrieving values. Ref No '
+			                                                + ltrim(Str(@Ref_No)) + ' - '
+			                                                + @rErrorText
+			                            if @pDebug > 0  
+				                            print @rErrorText
+        								
+			                            select @intErrorCode = -127054
+        																		 	
+			                            goto ERR_HANDLER								
+                               end   
+                               else 
+                              --  if @pDebug > 0
+                              --insert record into the allocation table
+									SELECT @PRDCT_CD = @rProductCd
+										  ,@PolicyType = @rPolicyType
+										  ,@BusinessType = @rBusinessType
+										  ,@ClaimsAmt = @rTransAmt
+									 			
+				            Begin Try       
+
+                                    Exec @ReturnCode = CiSp_CreateAllocationDetails
+		                                    @pCompany_Id 
+                                        ,   @Ref_No             
+                                        ,   @RECP_TYP
+                                        ,   @pProcess_From_Date
+	                                    ,	@rProductCd output
+                                        ,   @rPolicyType output 
+                                        ,   @rAllocationCode output
+                                        ,   @rBusinessType output
+                                        ,   @rTransAmt output
+                                        ,   @rMOPPrem output
+                                        ,   @rMOPContrib output
+                                        ,   @rYear output
+	                                    ,	@pDebug			    
+	                                    ,	@rSqlError		    output  
+	                                    ,	@rErrorText		    output     
+
+                              End Try
+                              Begin Catch
+                                    Select @rErrorText = ERROR_MESSAGE()
+                                    ,      @rSqlError  = ERROR_NUMBER()
+                              End Catch  
+
+                              if (@ReturnCode != 0 ) or  (@rSqlError != 0)
+                              begin
+			                            begin
 				                            if @@TRANCOUNT > 0
 					                            Rollback Tran DetailWork 
 			                            end								    
@@ -282,48 +357,51 @@ AS
 			                            goto ERR_HANDLER								
                                end   
                                else 
-                              --  if @pDebug > 0
+
+
                                    print '*** Successfully process data extraction. Ref No --> '
                                          + STR(@Ref_No) 
-                            
+
                                 ------------------------------------------------------
-                                -- Update Client profile Table with maintenance information
+                                --You can do any other update of other files
+                                --Update Client profile Table with maintenance information
                                 ------------------------------------------------------	  
-                                Begin Try
+                              --  Begin Try
                                 
-                                    update Client_Profiles
-                                    set Last_Valuation_Date = CAST(@pProcess_From_Date as Date)
-                                    where Company_Id =  @pCompany_Id
-                                    and   Client_ID  = @Ref_No
+                              --      update Client_Profiles
+                              --      set Last_Valuation_Date = CAST(@pProcess_From_Date as Date)
+                              --      where Company_Id =  @pCompany_Id
+                              --      and   Client_ID  = @Ref_No
                                 
-                                    Select @Rowcount = @@ROWCOUNT
+                              --      Select @Rowcount = @@ROWCOUNT
                                     
-                              End Try
-                              Begin Catch
-                                    Select @rErrorText = ERROR_MESSAGE()
-                                    ,      @rSqlError  = ERROR_NUMBER()
-                              End Catch  
-                              if (@Rowcount != 1) or (@rSqlError != 0)
-                              begin
-		                            Begin
-			                            if @@TRANCOUNT > 0
-				                            Rollback Tran DetailWork 
-		                            end								    
+                              --End Try
+                              --Begin Catch
+                              --      Select @rErrorText = ERROR_MESSAGE()
+                              --      ,      @rSqlError  = ERROR_NUMBER()
+                              --End Catch  
+                              --if (@Rowcount != 1) or (@rSqlError != 0)
+                              --begin
+		                            --Begin
+			                           -- if @@TRANCOUNT > 0
+				                          --  Rollback Tran DetailWork 
+		                            --end								    
     														    
-		                            select @rErrorText = 'CiSp_ExtractForAllocation....: Error updating client profile table. Client Id '
-		                                                + ltrim(Str(@Ref_No)) + ' - '
-		                                                + @rErrorText
-		                            if @pDebug > 0  
-			                            print @rErrorText
+		                            --select @rErrorText = 'CiSp_ExtractForAllocation....: Error updating client profile table. Client Id '
+		                            --                    + ltrim(Str(@Ref_No)) + ' - '
+		                            --                    + @rErrorText
+		                            --if @pDebug > 0  
+			                           -- print @rErrorText
     								
-		                            select @intErrorCode = -127055
+		                            --select @intErrorCode = -127055
     																		 	
-		                            goto ERR_HANDLER
-                               end   
-                               else 
-                                 if @pDebug > 0
-                                   print '*** Updated Client Profile  for Client --> '
-                                         + STR(@Ref_No) 
+		                            --goto ERR_HANDLER
+                              -- end   
+                              -- else 
+                              --   if @pDebug > 0
+                              --     print '*** Updated Client Profile  for Client --> '
+                              --           + STR(@Ref_No) 
+                           end
                             
                                 ERR_HANDLER:	 
 		    	                            IF (@intErrorCode != 0) 
@@ -422,7 +500,7 @@ AS
 		                            if (@Start_No = @MaxRecords)  -- Exit Loop if this is end of work 
 			                            break;
                         			
-		                            select @Start_No = @Start_No + 1   --- Incrament counter to get next record
+		                            select @Start_No = @Start_No + 1   --- Increment counter to get next record
 	                           end   -- End Processing of  Detailed list  Records 
 	  
 ExitWork:

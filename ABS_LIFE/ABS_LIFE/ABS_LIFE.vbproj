@@ -242,6 +242,13 @@
       <DependentUpon>PRG_FIN_ACCOUNTS_CHART.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="PRG_FIN_ACC_GRP_SETUP.aspx.designer.vb">
+      <DependentUpon>PRG_FIN_ACC_GRP_SETUP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRG_FIN_ACC_GRP_SETUP.aspx.vb">
+      <DependentUpon>PRG_FIN_ACC_GRP_SETUP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="PRG_FIN_ACTVTY_CD_SETUP.aspx.designer.vb">
       <DependentUpon>PRG_FIN_ACTVTY_CD_SETUP.aspx</DependentUpon>
     </Compile>
@@ -535,6 +542,7 @@
     <Content Include="NEW_TBL.aspx" />
     <Content Include="PolicyBrowse.aspx" />
     <Content Include="PRG_FIN_ACCOUNTS_CHART.aspx" />
+    <Content Include="PRG_FIN_ACC_GRP_SETUP.aspx" />
     <Content Include="PRG_FIN_ACTVTY_CD_SETUP.aspx" />
     <Content Include="PRG_FIN_BANK_SETUP.aspx" />
     <Content Include="PRG_FIN_COMP_CODE.aspx" />

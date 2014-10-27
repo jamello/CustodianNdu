@@ -40,7 +40,10 @@
 
                 <table class="tbl_menu_new">
 			        <tr><td colspan="4" class="myMenu_Title" align="center"><asp:Label ID="lblDesc1" runat="server" Text="Accounts Chart Setup"> </asp:Label> </td><td></td><td></td><td></td></tr>
-			        <tr><td>Company Code</td><td><asp:TextBox ID="txtCompanyCode" runat="server" Width="150px" Enabled="False"></asp:TextBox></td>
+			        <tr><td>Company Code</td>
+			                <td><asp:Dropdownlist ID="cmbCoyCode" runat="server" Width="150px">
+        				    </asp:Dropdownlist></td>
+
 					    <td>Entry Date</td>
 					
 			            <td><asp:TextBox ID="txtEntryDate" runat="server" Width="150px" Enabled="False"></asp:TextBox> </td>
@@ -56,7 +59,7 @@
     				
 				    <tr>
 					    <td>Sub Code</td>
-					    <td><asp:TextBox ID="txtSubCode" runat="server" Width="270px" MaxLength=10></asp:TextBox></td>
+					    <td><asp:TextBox ID="txtSubCode" runat="server" Width="270px" MaxLength=10 Text="0"></asp:TextBox></td>
 					    <td>Sub Description</td>
 					    <td><asp:TextBox ID="txtSubDesc" runat="server" Width="270px" MaxLength=150></asp:TextBox></td>
 
@@ -64,39 +67,40 @@
 
 				    <tr>
 					    <td><asp:Label ID="lblLevel" runat="server" Text="Level"> </asp:Label></td>
-					    <td><asp:TextBox ID="txtLevel" runat="server" Width="150px" MaxLength=3></asp:TextBox></td>
+			                <td><asp:Dropdownlist ID="cmbLevel" runat="server" Width="150px">
+        				    <asp:ListItem Value="M" Text="Main Account" Selected="True"> </asp:ListItem>
+        				    <asp:ListItem Value="S" Text="Sub Account"> </asp:ListItem>
+        				    </asp:Dropdownlist></td>
 					    <td><asp:Label ID="lblGroup" runat="server" Text="Group"> </asp:Label></td>
-					    <td><asp:TextBox ID="txtGroup" runat="server" Width="150px" MaxLength=3></asp:TextBox></td>
+			                <td><asp:Dropdownlist ID="cmbGroup" runat="server" Width="150px">
+        				    </asp:Dropdownlist></td>
 				    </tr>
 				    <tr>
-					    <td><asp:Label ID="lblLedgCode" runat="server" Text="Ledger Code" > </asp:Label></td>
-					    <td><asp:TextBox ID="txtLedgerCode" runat="server" Width="150px" MaxLength=3></asp:TextBox></td>
-					    <td><asp:Label ID="lblLedgerType" runat="server" Text="Ledger Type"> </asp:Label></td>
-					    <td><asp:TextBox ID="txtLedgerType" runat="server" Width="150px" MaxLength=3></asp:TextBox></td>
-				    </tr>
-				    <tr>
-					    <td><asp:Label ID="lblSubGrp1" runat="server" Text="Sub Group1"> </asp:Label></td>
-					    <td><asp:TextBox ID="txtSubGrp1" runat="server" Width="150px" MaxLength=3></asp:TextBox></td>
-					    <td><asp:Label ID="lblSubGrp2" runat="server" Text="Sub Group2"> </asp:Label></td>
-					    <td><asp:TextBox ID="txtSubGrp2" runat="server" Width="150px" MaxLength=3></asp:TextBox></td>
-				    </tr>
-				    <tr>
-					    <td><asp:Label ID="lblProductType" runat="server" Text="Product Code"> </asp:Label></td>
-					    <td><asp:TextBox ID="txtProductType" runat="server" Width="150px" MaxLength=25></asp:TextBox></td>
-					    <td><asp:Label ID="lblBusType" runat="server" Text="Bus. Type" > </asp:Label></td>
-					    <td><asp:TextBox ID="txtBusType" runat="server" Width="150px" MaxLength=3></asp:TextBox></td>
-				    </tr>
-				    <tr>
-					    <td><asp:Label ID="lblPolicyType" runat="server" Text="Policy Type"> </asp:Label></td>
-					    <td><asp:TextBox ID="txtPolicyType" runat="server" Width="150px" MaxLength=15></asp:TextBox></td>
-					    <td><asp:Label ID="lblAccountStatus" runat="server" Text="Account Status" MaxLength=3> </asp:Label></td>
-					    <td><asp:TextBox ID="txtAccountStatus" runat="server" Width="150px"></asp:TextBox></td>
-				    </tr>
-                    <tr>
-					    <td><asp:Label ID="lblAccountMode" runat="server" Text="Account Mode"> </asp:Label></td>
-					    <td><asp:TextBox ID="txtAccountMode" runat="server" Width="150px" MaxLength=3></asp:TextBox></td>
-					    <td>&nbsp;</td>
-					    <td>&nbsp;</td>    				
+					    <td><asp:Label ID="lblLedgerType" runat="server" Text="Ledger Type" > </asp:Label></td>
+					    <td>
+                            <asp:DropDownList ID="cmbLedgerType" runat="server" Width = "150px">
+                                    <asp:ListItem Value="0">Select</asp:ListItem>
+                                    <asp:ListItem Value="K">Bank</asp:ListItem>
+                                    <asp:ListItem Value="L">Liability</asp:ListItem>
+                                    <asp:ListItem Value="E">Expenses</asp:ListItem>
+                                    <asp:ListItem Value="C">Capital</asp:ListItem>
+                                    <asp:ListItem Value="T">Debtors</asp:ListItem>
+                                    <asp:ListItem Value="M">Claims</asp:ListItem>
+                                    <asp:ListItem Value="F">Fixed Assets</asp:ListItem>
+                                    <asp:ListItem Value="G">General Ledger</asp:ListItem>
+                                    <asp:ListItem Value="I">Investment</asp:ListItem>
+                                    <asp:ListItem Value="S">Stock</asp:ListItem>
+                                    <asp:ListItem Value="D">Staff Debtors</asp:ListItem>
+                                    <asp:ListItem Value="R">Creditors</asp:ListItem>
+                                    <asp:ListItem Value="L">Loans</asp:ListItem>
+                                    <asp:ListItem Value="C">Commissions</asp:ListItem>
+                                    <asp:ListItem Value="X">Unexpired Risks</asp:ListItem>
+                                    <asp:ListItem Value="Y">Claims Outstanding</asp:ListItem>
+                                    <asp:ListItem Value="Z">Contigency Reserve</asp:ListItem>
+                                </asp:DropDownList>
+					    </td>
+					    <td></td>
+					    <td></td>
 				    </tr>
 				<tr>
 					<td></td><td></td><td></td>

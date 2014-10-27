@@ -79,13 +79,13 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
     Protected WithEvents lblDesc1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''txtCompanyCode control.
+    '''cmbCoyCode control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtCompanyCode As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents cmbCoyCode As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''txtEntryDate control.
@@ -142,13 +142,13 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
     Protected WithEvents lblLevel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''txtLevel control.
+    '''cmbLevel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtLevel As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents cmbLevel As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''lblGroup control.
@@ -160,31 +160,13 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
     Protected WithEvents lblGroup As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''txtGroup control.
+    '''cmbGroup control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtGroup As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''lblLedgCode control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblLedgCode As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''txtLedgerCode control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtLedgerCode As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents cmbGroup As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''lblLedgerType control.
@@ -196,139 +178,13 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
     Protected WithEvents lblLedgerType As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''txtLedgerType control.
+    '''cmbLedgerType control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtLedgerType As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''lblSubGrp1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblSubGrp1 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''txtSubGrp1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtSubGrp1 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''lblSubGrp2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblSubGrp2 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''txtSubGrp2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtSubGrp2 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''lblProductType control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblProductType As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''txtProductType control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtProductType As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''lblBusType control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblBusType As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''txtBusType control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtBusType As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''lblPolicyType control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblPolicyType As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''txtPolicyType control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtPolicyType As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''lblAccountStatus control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblAccountStatus As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''txtAccountStatus control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtAccountStatus As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''lblAccountMode control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblAccountMode As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''txtAccountMode control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtAccountMode As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents cmbLedgerType As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''butSave control.

@@ -15,7 +15,8 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
     Dim updateFlag As Boolean
     Dim strKey As String
     Dim accChart As CustodianLife.Model.ChartOfAccounts
-    Dim coyCdEnq As New CompanyCodesRepository()
+    Dim coyCdEnq As CompanyCodesRepository
+    Dim accGrps As AccountGroupsRepository
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
@@ -23,6 +24,9 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
             accChart = New CustodianLife.Model.ChartOfAccounts()
             indLifeEnq = New IndLifeCodesRepository
             coaRepo = New AccountsChartRepository()
+            coyCdEnq = New CompanyCodesRepository()
+            accGrps = New AccountGroupsRepository()
+
 
             Session("coaRepo") = coaRepo  'save the repository object in the session
             Session("accChart") = accChart ' save the trans type object in the session
@@ -33,7 +37,10 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
             strKey = Request.QueryString("idd")
             Session("ttid") = strKey
 
-            txtCompanyCode.Text = "003"
+            SetComboBinding(cmbCoyCode, coyCdEnq.CompanyCodesDetails, "CompanyLongName", "CompanyCode")
+            SetComboBinding(cmbGroup, accGrps.AccountGroupDetails, "AccountGroupLongDesc", "AccountGroupCode")
+            SetComboBinding(cmbLedgerType, accGrps.AccountGroupDetails, "MainGroupDesc", "MainGroupCode")
+
             txtEntryDate.Text = Now.Date
 
             If strKey IsNot Nothing Then
@@ -64,49 +71,32 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
 
             lblError.Visible = False
             With accChart
-                .AccountLedgerCode = Trim(txtLedgerCode.Text)
-                .AccountLedgerType = txtLedgerType.Text.Trim
-                .AccountLevel = txtLevel.Text.Trim
-                .AccountMainGroup = txtGroup.Text.Trim
-                .AccountMode = txtAccountMode.Text.Trim
-                .AccountPolicyType = txtPolicyType.Text.Trim
-                .AccountStatus = txtAccountStatus.Text.Trim
-                .AccountSub1Group = txtSubGrp1.Text.Trim
-                .AccountSub2Group = txtSubGrp2.Text.Trim
-                .BusinessType = txtBusType.Text.Trim
-                .CompanyCode = "003"
+                .AccountLedgerType = cmbLedgerType.SelectedValue
+                .AccountLevel = cmbLevel.SelectedValue
+                .AccountMainGroup = cmbGroup.SelectedValue
+                .CompanyCode = cmbCoyCode.SelectedValue
                 .EntryDate = Now.Date
                 .EntryFlag = "A"
                 .FullDescription = txtMainDesc.Text.Trim
                 .MainAcctsCode = txtMainCode.Text.Trim
                 .OperatorId = "001"
-                .ProductCode = txtProductType.Text.Trim
                 .ShortDescription = txtSubDesc.Text.Trim
                 .SubAcctsCode = txtSubCode.Text.Trim
-
-
             End With
             coaRepo.Save(accChart)
             Session("accChart") = accChart
         Else
             With accChart
-                .AccountLedgerCode = Trim(txtLedgerCode.Text)
-                .AccountLedgerType = txtLedgerType.Text.Trim
-                .AccountLevel = txtLevel.Text.Trim
-                .AccountMainGroup = txtGroup.Text.Trim
-                .AccountMode = txtAccountMode.Text.Trim
-                .AccountPolicyType = txtPolicyType.Text.Trim
-                .AccountStatus = txtAccountStatus.Text.Trim
-                .AccountSub1Group = txtSubGrp1.Text.Trim
-                .AccountSub2Group = txtSubGrp2.Text.Trim
-                .BusinessType = txtBusType.Text.Trim
+                .AccountLedgerType = cmbLedgerType.SelectedValue
+                .AccountLevel = cmbLevel.SelectedValue
+                .AccountMainGroup = cmbGroup.SelectedValue
+                .CompanyCode = cmbCoyCode.SelectedValue
                 '.CompanyCode = "001"
                 .EntryDate = Now.Date
                 '.EntryFlag = "A"
                 '.OperatorId = "001"
                 .FullDescription = txtMainDesc.Text.Trim
                 .MainAcctsCode = txtMainCode.Text.Trim
-                .ProductCode = txtProductType.Text.Trim
                 .ShortDescription = txtSubDesc.Text.Trim
                 .SubAcctsCode = txtSubCode.Text.Trim
 
@@ -130,19 +120,12 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
         If accChart IsNot Nothing Then
 
             With accChart
-                txtLedgerCode.Text = .AccountLedgerCode
-                txtLedgerType.Text = .AccountLedgerType
-                txtLevel.Text = .AccountLevel
-                txtGroup.Text = .AccountMainGroup
-                txtAccountMode.Text = .AccountMode
-                txtPolicyType.Text = .AccountPolicyType
-                txtAccountStatus.Text = .AccountStatus
-                txtSubGrp1.Text = .AccountSub1Group
-                txtSubGrp2.Text = .AccountSub2Group
-                txtBusType.Text = .BusinessType
+                cmbLedgerType.SelectedValue = .AccountLedgerType
+                cmbLevel.SelectedValue = .AccountLevel
+                cmbGroup.SelectedValue = .AccountMainGroup
+                cmbCoyCode.SelectedValue = .CompanyCode
                 txtMainDesc.Text = .FullDescription
                 txtMainCode.Text = .MainAcctsCode
-                txtProductType.Text = .ProductCode
                 txtSubDesc.Text = .ShortDescription
                 txtSubCode.Text = .SubAcctsCode
                 txtEntryDate.Text = .EntryDate
@@ -155,19 +138,13 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
 
     End Sub
     Protected Sub initializeFields()
-        txtLedgerCode.Text = String.Empty
-        txtLedgerType.Text = String.Empty
-        txtLevel.Text = String.Empty
-        txtGroup.Text = String.Empty
-        txtAccountMode.Text = String.Empty
-        txtPolicyType.Text = String.Empty
-        txtAccountStatus.Text = String.Empty
-        txtSubGrp1.Text = String.Empty
-        txtSubGrp2.Text = String.Empty
-        txtBusType.Text = String.Empty
+
+        cmbLedgerType.SelectedIndex = 0
+        cmbLevel.SelectedIndex = 0
+        cmbGroup.SelectedIndex = 0
+        cmbCoyCode.SelectedIndex = 0
         txtMainDesc.Text = String.Empty
         txtMainCode.Text = String.Empty
-        txtProductType.Text = String.Empty
         txtSubDesc.Text = String.Empty
         txtSubDesc.Text = String.Empty
 
@@ -190,4 +167,11 @@ Partial Public Class PRG_FIN_ACCOUNTS_CHART
         Response.Redirect("ChartOfAccountsEntryBrowse.aspx")
 
     End Sub
+    Private Sub SetComboBinding(ByVal toBind As ListControl, ByVal dataSource As Object, ByVal displayMember As String, ByVal valueMember As String)
+        toBind.DataTextField = displayMember
+        toBind.DataValueField = valueMember
+        toBind.DataSource = dataSource
+        toBind.DataBind()
+    End Sub
+
 End Class
